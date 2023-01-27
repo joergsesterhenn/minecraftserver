@@ -7,12 +7,12 @@ multiverse-configuration:
   teleportintercept: 'true'
   firstspawnoverride: 'true'
   displaypermerrors: 'true'
-  enablebuscript: 'true'
+  enablebuscript: 'false'
   globaldebug: '0'
   silentstart: 'true'
   messagecooldown: '5000'
   version: '2.9'
-  firstspawnworld: world
+  firstspawnworld: void 
   teleportcooldown: '1000'
   defaultportalsearch: 'true'
   portalsearchradius: '128'

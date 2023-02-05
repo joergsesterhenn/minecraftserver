@@ -1,0 +1,92 @@
+[08:51:25] [User Authenticator #9/INFO]: UUID of player MinecraftKarton is 1069e710-8820-4700-bc3f-715fc52e9ee0
+[08:51:25] [Server thread/INFO]: MinecraftKarton joined the game
+[08:51:25] [Server thread/INFO]: MinecraftKarton[/188.210.49.13:54336] logged in with entity id 5682471 at ([creative]108.71107763517013, -34.23432205402119, 104.35760846984881)
+[08:53:25] [Server thread/INFO]: MinecraftKarton issued server command: /wg running
+[08:53:36] [Server thread/INFO]: MinecraftKarton issued server command: /rg flags
+[08:53:49] [Server thread/INFO]: MinecraftKarton issued server command: /rg flags -w "creative" -p 2 __global__
+[08:54:06] [Server thread/INFO]: MinecraftKarton issued server command: /rg flags -w "creative" -p 3 __global__
+[08:54:11] [Server thread/INFO]: MinecraftKarton issued server command: /rg flag -w "creative" -h 3 __global__ mob-spawning 
+[08:54:17] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'creative' have been background saved
+[08:54:55] [Server thread/INFO]: MinecraftKarton issued server command: /mvm set difficulty easy
+[08:55:08] [Server thread/INFO]: MinecraftKarton issued server command: /mvm set difficulty peacefull
+[08:55:14] [Server thread/INFO]: MinecraftKarton issued server command: /mvm set difficulty peaceful
+[09:18:51] [Server thread/INFO]: MinecraftKarton issued server command: /we schematics
+[09:20:02] [Server thread/INFO]: MinecraftKarton issued server command: /worldedit:/schematic list
+[09:20:11] [Server thread/INFO]: MinecraftKarton issued server command: /schem load "COWJERSEY.schematic"
+[09:20:11] [WorldEdit Task Executor - 0/INFO]: MinecraftKarton loaded /opt/papermc/plugins/WorldEdit/schematics/COWJERSEY.schematic
+[09:20:19] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:20:43] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:20:53] [Server thread/INFO]: MinecraftKarton issued server command: //rotate -90
+[09:20:58] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:21:13] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:21:33] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:22:17] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:22:31] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:23:35] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:23:44] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:24:36] [Server thread/INFO]: MinecraftKarton issued server command: /worldedit:/schematic list
+[09:25:01] [Server thread/INFO]: MinecraftKarton issued server command: /schem load "COWHIGHLANDER.schematic"
+[09:25:01] [WorldEdit Task Executor - 1/INFO]: MinecraftKarton loaded /opt/papermc/plugins/WorldEdit/schematics/COWHIGHLANDER.schematic
+[09:25:07] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:25:28] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:25:35] [Server thread/INFO]: MinecraftKarton issued server command: /schem load "COWJERSEY.schematic"
+[09:25:35] [WorldEdit Task Executor - 1/INFO]: MinecraftKarton loaded /opt/papermc/plugins/WorldEdit/schematics/COWJERSEY.schematic
+[09:25:39] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:25:50] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:25:58] [Server thread/INFO]: MinecraftKarton issued server command: /schem load "COWFRIESLANBROWN.schematic"
+[09:25:58] [WorldEdit Task Executor - 1/INFO]: MinecraftKarton loaded /opt/papermc/plugins/WorldEdit/schematics/COWFRIESLANBROWN.schematic
+[09:25:59] [Server thread/INFO]: MinecraftKarton issued server command: /schem load "COWFRIESLANBROWN.schematic"
+[09:25:59] [WorldEdit Task Executor - 1/INFO]: MinecraftKarton loaded /opt/papermc/plugins/WorldEdit/schematics/COWFRIESLANBROWN.schematic
+[09:26:00] [Server thread/INFO]: MinecraftKarton issued server command: /schem load "COWFRIESLANBROWN.schematic"
+[09:26:00] [WorldEdit Task Executor - 1/INFO]: MinecraftKarton loaded /opt/papermc/plugins/WorldEdit/schematics/COWFRIESLANBROWN.schematic
+[09:26:01] [Server thread/INFO]: MinecraftKarton issued server command: /schem load "COWFRIESLANBROWN.schematic"
+[09:26:01] [WorldEdit Task Executor - 1/INFO]: MinecraftKarton loaded /opt/papermc/plugins/WorldEdit/schematics/COWFRIESLANBROWN.schematic
+[09:26:01] [Server thread/INFO]: MinecraftKarton issued server command: /schem load "COWFRIESLANBROWN.schematic"
+[09:26:01] [WorldEdit Task Executor - 1/INFO]: MinecraftKarton loaded /opt/papermc/plugins/WorldEdit/schematics/COWFRIESLANBROWN.schematic
+[09:26:06] [Server thread/INFO]: MinecraftKarton issued server command: /worldedit:/schematic list
+[09:26:10] [Server thread/INFO]: MinecraftKarton issued server command: /schem load "COWFRIESLANBROWN.schematic"
+[09:26:10] [WorldEdit Task Executor - 1/INFO]: MinecraftKarton loaded /opt/papermc/plugins/WorldEdit/schematics/COWFRIESLANBROWN.schematic
+[09:26:12] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:26:29] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:26:49] [Server thread/INFO]: MinecraftKarton issued server command: //rotate 135
+[09:27:11] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:28:40] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:28:45] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:29:10] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:29:33] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:31:29] [Server thread/INFO]: MinecraftKarton issued server command: /worldedit:/schematic list
+[09:31:44] [Server thread/INFO]: MinecraftKarton issued server command: /schem load "COWFRIESLANBLACK.schematic"
+[09:31:44] [WorldEdit Task Executor - 2/INFO]: MinecraftKarton loaded /opt/papermc/plugins/WorldEdit/schematics/COWFRIESLANBLACK.schematic
+[09:31:52] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:32:48] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:33:01] [Server thread/INFO]: MinecraftKarton issued server command: //rotate -135
+[09:33:07] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:33:37] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:33:41] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:40:32] [Server thread/INFO]: MinecraftKarton issued server command: /we wand
+[09:41:01] [Server thread/INFO]: MinecraftKarton issued server command: /worldedit:/w
+[09:41:10] [Server thread/INFO]: MinecraftKarton issued server command: /worldedit:/wand
+[09:44:45] [Server thread/INFO]: MinecraftKarton issued server command: /worldedit:/wand
+[09:45:34] [Server thread/INFO]: MinecraftKarton issued server command: //copy
+[09:45:50] [Server thread/INFO]: MinecraftKarton issued server command: //rotate -90
+[09:46:11] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:46:28] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:46:40] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:49:30] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:49:42] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:49:49] [Server thread/INFO]: MinecraftKarton issued server command: //rotate -90
+[09:49:54] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:50:05] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:50:11] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:50:25] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:50:31] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:50:46] [Server thread/INFO]: MinecraftKarton issued server command: //rotate -90
+[09:50:49] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:51:02] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:51:05] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:51:12] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:51:23] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:51:34] [Server thread/INFO]: MinecraftKarton issued server command: //undo
+[09:51:46] [Server thread/INFO]: MinecraftKarton issued server command: //paste
+[09:53:25] [Server thread/INFO]: MinecraftKarton lost connection: Disconnected
+[09:53:25] [Server thread/INFO]: MinecraftKarton left the game

@@ -6,3 +6,13 @@
 *.db
 id_rsa
 *.pem
+.console_history
+*.mca
+*.gz
+*.schem
+*.schematic
+*.log
+*.png
+*.sqlite
+*.mc*
+*.hash

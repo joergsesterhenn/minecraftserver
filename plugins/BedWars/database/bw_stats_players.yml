@@ -2,11 +2,11 @@ data:
   1069e710-8820-4700-bc3f-715fc52e9ee0:
     kills: 0
     wins: 1
-    score: 50
-    loses: 0
+    score: 75
+    loses: 1
     name: MinecraftKarton
-    destroyedBeds: 0
-    deaths: 0
+    destroyedBeds: 1
+    deaths: 1
   00000000-0000-0000-0009-00000ca8daab:
     kills: 0
     wins: 2
@@ -15,3 +15,11 @@ data:
     name: .MinecraftKarton
     destroyedBeds: 0
     deaths: 1
+  0f2e4ecf-95fb-4636-a479-de475759b0c5:
+    kills: 0
+    wins: 1
+    score: 75
+    loses: 0
+    name: Tom_7702
+    destroyedBeds: 1
+    deaths: 0

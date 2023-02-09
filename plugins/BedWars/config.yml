@@ -104,36 +104,22 @@ resources:
     material: GOLD_INGOT
     color: GOLD
     name: Gold
-    interval: 20
+    interval: 25
     translate: resource_gold
     spread: 1.0
   iron:
     material: IRON_INGOT
     color: GRAY
     name: Iron
-    interval: 10
+    interval: 15
     translate: resource_iron
     spread: 1.0
   bronze:
     material: BRICK
     color: DARK_RED
     name: Bronze
-    interval: 1
+    interval: 7
     translate: resource_bronze
-    spread: 1.0
-  diamond:
-    material: DIAMOND
-    color: BLUE
-    name: Diamond
-    interval: 30
-    translate: resource_diamond
-    spread: 1.0
-  emerald:
-    material: EMERALD
-    color: GREEN
-    name: Emerald
-    interval: 60
-    translate: resource_emerald
     spread: 1.0
 respawn:
   protection-enabled: true
@@ -141,7 +127,7 @@ respawn:
   show-messages: true
 specials:
   action-bar-messages: true
-  dont-show-success-messages: false
+  dont-show-success-messages: true
   rescue-platform:
     is-breakable: false
     delay: 0

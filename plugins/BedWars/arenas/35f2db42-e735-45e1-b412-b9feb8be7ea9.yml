@@ -86,27 +86,6 @@ spawners:
   type: gold
 - maxSpawnedResources: -1
   hologramEnabled: true
-  location: 69.81605994665222;63.5;0.4548162631722958;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: diamond
-- maxSpawnedResources: -1
-  hologramEnabled: true
-  location: 0.28612465950886684;63.5;69.80000001192093;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: diamond
-- maxSpawnedResources: -1
-  hologramEnabled: true
-  location: -68.80000001192093;63.5;0.4982171807385029;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: diamond
-- maxSpawnedResources: -1
-  hologramEnabled: true
   location: 127.73531570343494;66.0;3.832208558077403;0.0;0.0
   customName: null
   startLevel: 1.0

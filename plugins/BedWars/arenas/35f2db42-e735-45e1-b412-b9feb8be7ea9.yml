@@ -156,6 +156,13 @@ spawners:
   type: diamond
 stores:
 - isBaby: 'false'
+  loc: 0.18989106930145908;66.0;127.93981794141368;177.5996;2.6999607
+  parent: 'false'
+  shop: null
+  name: Dealer
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
   loc: 0.06447076241871151;66.0;128.0543653878319;179.67566;10.350048
   parent: 'false'
   shop: null
@@ -181,6 +188,13 @@ stores:
   parent: 'false'
   shop: null
   name: §a§lVillager_shop
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: 127.6768834564991;66.0;1.0036250054305744;88.34975;-0.1500016
+  parent: 'false'
+  shop: null
+  name: Dealer
   skin: null
   type: VILLAGER
 constant:

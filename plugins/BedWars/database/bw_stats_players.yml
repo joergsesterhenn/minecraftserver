@@ -1,17 +1,17 @@
 data:
   1069e710-8820-4700-bc3f-715fc52e9ee0:
     kills: 0
-    wins: 0
-    score: 0
+    wins: 1
+    score: 50
     loses: 0
     name: MinecraftKarton
     destroyedBeds: 0
     deaths: 0
   00000000-0000-0000-0009-00000ca8daab:
     kills: 0
-    wins: 0
-    score: 0
+    wins: 2
+    score: 200
     loses: 0
     name: .MinecraftKarton
     destroyedBeds: 0
-    deaths: 0
+    deaths: 1

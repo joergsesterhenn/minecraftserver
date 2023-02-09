@@ -1,5 +1,5 @@
-locale: en
-debug: false
+locale: en 
+debug: true 
 allow-crafting: false
 keep-inventory-on-death: false
 in-lobby-colored-leather-by-team: true

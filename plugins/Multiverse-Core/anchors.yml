@@ -4,6 +4,6 @@ anchors:
   worldspawn: world:-172.50,95.00,-377.50:-161.10:30.00
   seeside: world:-365.51,61.00,-332.31:179.09:1.35
   bedwarsmap: bedwars:0.34,65.00,0.67:-111.75:52.05
-  bedwarslobby: bedwars:-61.53,88.00,399.65:-91.50:43.95
+  bedwarslobby: bedwars:1000.99,0.00,1007.72:174.73:3.60
   bedwars_skylobby: bedwars:0.41,178.00,0.39:89.70:11.85
   bedwarsspawn: bedwars:1002.13,2.00,1017.43:179.39:9.00

@@ -118,7 +118,7 @@ resources:
     material: BRICK
     color: DARK_RED
     name: Bronze
-    interval: 7
+    interval: 4
     translate: resource_bronze
     spread: 1.0
 respawn:

@@ -2,7 +2,7 @@ worlds:
   void:
     ==: MVWorld
     hidden: 'false'
-    alias: void
+    alias: Lobby
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -237,7 +237,7 @@ worlds:
   bedwars:
     ==: MVWorld
     hidden: 'false'
-    alias: bedwars
+    alias: Arena
     color: WHITE
     style: NORMAL
     pvp: 'true'

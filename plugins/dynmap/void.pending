@@ -1,0 +1,145 @@
+%YAML 1.1
+---
+invZoomOut:
+    t:
+    - [
+        ]
+    - &id001 [
+        ]
+    - *id001
+    - [
+        ]
+    - [
+        ]
+    - [
+        ]
+    - [
+        ]
+    -   - ffffffff/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:fff40000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+        - 0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/3ff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - *id001
+    - *id001
+    - *id001
+    -   - ffffffff/0:0/0:0/0:80000000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - ffffffff/0:0/0:80000000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - ffffffff/0:0/0:80000000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+        - 0/0:0/0:0/1:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+job:
+    mapindex: 1
+    czmax: 8
+    activemaps: surface
+    cxmax: 6
+    renderedmaps:
+    - surface
+    - flat
+    locZ: 30.0
+    count: 1637
+    locX: 1.0
+    locY: 7.0
+    rendertype: Radius render
+    timeaccum: 820763
+    world: void
+    found:
+    - ffffffff/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:f8000000/0:fe000000/0:ff800000/0:ffe00000/0:fff80000/0:fffe0000/0:ffff8000/0:ffffe000/0:fffff800/0:fffffe00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0
+    - ffffffff/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:ffffff00/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - 0/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/3:0/f:0/3f:0/ff:0/3ff:0/fff:0/3fff:0/ffff:0/3ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff
+    - 0/0:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ffff:0/7ff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    rendered:
+    - ffffffff/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:70000000/0:fc000000/0:ff000000/0:ffc00000/0:fff00000/0:fffc0000/0:ffff0000/0:ffffc000/0:fffff000/0:fffffc00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0
+    - ffffffff/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:fffffe00/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - 0/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/1:0/7:0/1f:0/7f:0/1ff:0/7ff:0/1fff:0/7fff:0/1ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff
+    - 0/0:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    activemapcnt: 1
+    cxmin: -7
+    czmin: -5
+    map: surface
+    queue:
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 11,25,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 10,25,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 13,25,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 12,25,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 15,25,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 14,25,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 17,25,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 16,25,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 18,25,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -24,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -22,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -23,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -20,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -21,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -18,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -19,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -16,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -17,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -14,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -15,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -12,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -13,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -10,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -11,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -8,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -9,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -6,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -7,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -4,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -5,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -2,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -3,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 0,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: -1,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 2,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 1,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 4,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 3,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 6,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 5,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 8,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 7,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 10,26,iso_SE_30_hires,0,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 9,26,iso_SE_30_hires,0,0
+    player: MinecraftKarton

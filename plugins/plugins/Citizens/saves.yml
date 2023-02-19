@@ -1,0 +1,163 @@
+# Citizens NPC Storage
+
+npc:
+  '1055':
+    metadata:
+      protected: true
+    name: §aChange floor NPC
+    uuid: a8d0e4a3-5b11-4982-be68-33b65eb73e24
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: BB-Candyland
+        x: '-33.5'
+        y: '70.0'
+        z: '17.5'
+        yaw: '89.40193176269531'
+        pitch: '0.0'
+    traitnames: type,spawned,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1054':
+    metadata:
+      protected: true
+    name: §aChange floor NPC
+    uuid: d53c58fb-37b1-42b7-86b2-2795780c5413
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: BB-Candyland
+        x: '-33.5'
+        y: '70.0'
+        z: '-14.5'
+        yaw: '89.40193176269531'
+        pitch: '0.0'
+    traitnames: type,spawned,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1053':
+    metadata:
+      protected: true
+    name: §aChange floor NPC
+    uuid: 91b8b6f1-334d-4981-a347-f0426a37edb5
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: BB-Candyland
+        x: '-33.5'
+        y: '70.0'
+        z: '-46.5'
+        yaw: '89.4019546508789'
+        pitch: '0.0'
+    traitnames: type,spawned,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1052':
+    metadata:
+      protected: true
+    name: §aChange floor NPC
+    uuid: 135c5cb5-130e-4107-b627-5ece82e8f321
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: BB-Candyland
+        x: '-33.5'
+        y: '70.0'
+        z: '-78.5'
+        yaw: '91.35174560546875'
+        pitch: '0.0'
+    traitnames: type,spawned,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1051':
+    metadata:
+      protected: true
+    name: §aChange floor NPC
+    uuid: 72f7c6bc-e776-4bdd-a46f-93272703d9ae
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: BB-Candyland
+        x: '-1.5'
+        y: '70.0'
+        z: '-78.5'
+        yaw: '89.101806640625'
+        pitch: '0.0'
+    traitnames: type,spawned,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1050':
+    metadata:
+      protected: true
+    name: §aChange floor NPC
+    uuid: 4bbeb1b4-fb7b-4526-a64a-be909cedc9fe
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: BB-Candyland
+        x: '-1.5'
+        y: '70.0'
+        z: '-46.5'
+        yaw: '89.70172119140625'
+        pitch: '0.0'
+    traitnames: type,spawned,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1049':
+    metadata:
+      protected: true
+    name: §aChange floor NPC
+    uuid: b1351b1a-83fd-4510-9bd2-5469b6a05f5d
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: BB-Candyland
+        x: '-1.5'
+        y: '70.0'
+        z: '-14.5'
+        yaw: '92.25181579589844'
+        pitch: '0.0'
+    traitnames: type,spawned,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1048':
+    metadata:
+      protected: true
+    name: §aChange floor NPC
+    uuid: e197e866-8c33-4b4c-a754-d84d55d90315
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: BB-Candyland
+        x: '-1.5'
+        y: '70.0'
+        z: '17.5'
+        yaw: '90.30181121826172'
+        pitch: '0.0'
+    traitnames: type,spawned,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

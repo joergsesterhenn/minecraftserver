@@ -12,7 +12,7 @@
 regions:
     __global__:
         members: {}
-        flags: {time-lock: '6000', weather-lock: clear, fire-spread: deny}
+        flags: {time-lock: '6000', weather-lock: clear}
         owners: {}
         type: global
         priority: 0

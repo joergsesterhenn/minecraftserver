@@ -1,1 +1,23 @@
 data-version: 1
+00000000-0000-0000-0009-00000ca8daab:
+  next_level_exp: 354
+  points_highest: 6
+  points_total: 9
+  blocks_placed: 16
+  level: 1
+  games_played: 2
+  points_highest_win: 3
+  exp: 100
+  wins: 1
+  loses: 1
+1069e710-8820-4700-bc3f-715fc52e9ee0:
+  next_level_exp: 354
+  points_highest: 7
+  points_total: 10
+  blocks_placed: 141
+  level: 1
+  games_played: 2
+  points_highest_win: 7
+  blocks_broken: 13
+  exp: 120
+  wins: 2

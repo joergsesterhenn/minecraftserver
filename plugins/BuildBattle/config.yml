@@ -21,7 +21,7 @@
 #   pt_BR - Português (Brasil)     zh_tw - 中文(繁體)
 #   uk - Ukrainian                 be - Belarusian
 #   eu - Basque                    el - Greek
-locale: default
+locale: de
 
 # Should we display a boss bar with additional arena information?
 Bossbar:
@@ -121,7 +121,7 @@ Firework: true
 Sign-Block-States: true
 
 
-# Should holiday events for the plugin be enabled?
+# S:colorscheme jellybeanshould holiday events for the plugin be enabled?
 # Eg. 4 days before and 4 days after Halloween special effects
 # for death, spooky! There are more holiday events! Check wiki!
 # Wiki: -

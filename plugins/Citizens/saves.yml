@@ -12,12 +12,12 @@ npc:
     uuid: 3cf6e177-53e1-441a-82f5-8c0579fabb42
     traits:
       location:
-        bodyYaw: 260.0595
+        bodyYaw: 5.34494
         world: bedwars
-        x: '998.075'
-        y: '21.0'
-        z: '984.925'
-        yaw: '-198.7426'
+        x: '1026.5056'
+        y: '6.0'
+        z: '985.4407'
+        yaw: '-3.0585'
         pitch: '0.0'
       age:
         age: 0
@@ -79,11 +79,11 @@ npc:
         updateSkins: false
       spawned: true
       type: FOX
-    traitnames: location,age,skintrait,mounttrait,foxtrait,waypoints,scoreboardtrait,inventory,spawned,type,horsemodifiers,owner
+    traitnames: age,location,horsemodifiers,spawned,inventory,type,mounttrait,foxtrait,scoreboardtrait,skintrait,waypoints,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '8':
     metadata:
       minecraft-ai: true
@@ -91,12 +91,12 @@ npc:
     uuid: 195aad8a-243d-4df0-9f1f-931073eaeb5c
     traits:
       location:
-        bodyYaw: 90.4736
+        bodyYaw: 89.44316
         world: bedwars
-        x: '982.85'
-        y: '11.25'
-        z: '990.5106'
-        yaw: '90.4736'
+        x: '1008.4271'
+        y: '-2.4901'
+        z: '1029.5222'
+        yaw: '64.4395'
         pitch: '0.0'
       age:
         age: -24000
@@ -112,8 +112,8 @@ npc:
       type: CHICKEN
       owner:
         uuid: 1069e710-8820-4700-bc3f-715fc52e9ee0
-    traitnames: location,age,mounttrait,waypoints,scoreboardtrait,spawned,type,owner
+    traitnames: age,location,spawned,type,mounttrait,scoreboardtrait,waypoints,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false

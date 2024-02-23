@@ -1,5 +1,5 @@
-locale: en 
-debug: true 
+locale: en
+debug: true
 allow-crafting: false
 keep-inventory-on-death: false
 in-lobby-colored-leather-by-team: true
@@ -58,6 +58,7 @@ bungee:
     running: '%name%: Game is running [%current%/%max%]'
     rebuilding: '%name%: Rebuilding...'
     disabled: '%name%: Game is disabled'
+  select-random-game: true
 farmBlocks:
   enable: false
   blocks: []
@@ -223,6 +224,7 @@ game-effects:
       colors:
       - &id001
         ==: Color
+        ALPHA: 255
         RED: 255
         BLUE: 255
         GREEN: 255
@@ -270,6 +272,8 @@ database:
   password: secret
   table-prefix: bw_
   useSSL: false
+  add-timezone-to-connection-string: true
+  timezone-id: GMT
 bossbar:
   use-xp-bar: false
   lobby:
@@ -314,6 +318,8 @@ rewards:
   - /example {player} 10
   player-final-kill:
   - /example {player} 10
+  player-win-run-immediately:
+  - /example {player} 200
 lore:
   generate-automatically: true
   text:
@@ -342,6 +348,7 @@ breakable:
   enabled: false
   asblacklist: false
   blocks: []
+  explosions: false
 leaveshortcuts:
   enabled: false
   list:
@@ -410,3 +417,11 @@ party:
   autojoin-members: false
   notify-when-warped: true
 version: 2
+prefer-1-19-4-display-entities: true
+remember-what-scoreboards-players-had-before: false
+use-chunk-tickets-if-available: true
+reset-full-spawner-countdown-after-picking: true
+players-can-win-game-only-after-seconds: 0
+kick-players-upon-final-death:
+  enabled: false
+  delay: 5

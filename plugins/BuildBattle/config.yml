@@ -95,15 +95,12 @@ Database: false
 Rewards: true
 
 
-# Enable in game (eg. '[KIT][LEVEL] Tigerpanzer_02: hey') special formatting?
 # Formatting is configurable in old_language.yml
-# You can use PlaceholderAPI placeholders in chat format!
 Plugin-Chat-Format: true
 
 
 # Should we enable a separate arena chat for players inside a arena
 # Useful on multi arena servers that don't want the same chat for all players on the server
-Separate-Arena-Chat: true
 
 
 # Should we fire some cool fireworks at locations of every player at special events such as the game end?
@@ -142,6 +139,7 @@ Parties:
 
 
 Damage:
+  Hunger: false
   # Should players get fall damage?
   Fall: false
   # Should players get drowning damage?
@@ -276,9 +274,26 @@ Update-Notifier:
   Notify-Beta-Versions: true
 
 
+
+Chat:
+  Format: true
+  Separate:
+    # Should we enable a separate arena chat for players inside a arena
+    # Useful on multi arena servers that don't want the same chat for all players on the server
+    Arena: true
+    # Should spectators only write with other spectators
+    Spectators: true
+# Kits configuration
+# A server restart is required for changes to apply
+Kit:
+  # Should we load kits?
+  Enabled: false
+  # What is the default kit for players?
+  # This should be the same name as the file name of the kits file in the kits folder
+  Default: "knight"
 # Don't edit it. But who's stopping you? It's your server!
 # Really, don't edit ;p
 # You edited it, huh? Next time hurt yourself!
 Do-Not-Edit:
   File-Version: 1
-  Core-Version: 1
+  Core-Version: 4

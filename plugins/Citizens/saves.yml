@@ -91,12 +91,12 @@ npc:
     uuid: 195aad8a-243d-4df0-9f1f-931073eaeb5c
     traits:
       location:
-        bodyYaw: 89.44316
+        bodyYaw: 45.8226
         world: bedwars
-        x: '1008.4271'
-        y: '-2.4901'
-        z: '1029.5222'
-        yaw: '64.4395'
+        x: '1004.5048'
+        y: '-3.0'
+        z: '1029.5353'
+        yaw: '-29.1774'
         pitch: '0.0'
       age:
         age: -24000

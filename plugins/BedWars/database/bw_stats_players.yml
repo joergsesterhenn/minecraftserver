@@ -24,18 +24,18 @@ data:
     destroyedBeds: 1
     deaths: 0
   b6c17d28-7e4d-4981-9b3f-f655b475727d:
-    kills: 2
+    kills: 1
     wins: 1
-    score: 195
-    loses: 5
+    score: 85
+    loses: 1
     name: HeFeBro
-    destroyedBeds: 5
-    deaths: 22
+    destroyedBeds: 1
+    deaths: 5
   698d968c-7fc2-4f7b-9b17-62392d875b35:
-    kills: 7
-    wins: 5
-    score: 470
+    kills: 4
+    wins: 1
+    score: 115
     loses: 1
     name: refebro
-    destroyedBeds: 6
-    deaths: 9
+    destroyedBeds: 1
+    deaths: 2

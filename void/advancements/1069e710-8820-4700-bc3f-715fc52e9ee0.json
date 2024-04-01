@@ -14,6 +14,7 @@
       "minecraft:old_growth_birch_forest": "2024-03-26 19:32:23 +0000",
       "minecraft:ocean": "2023-02-20 13:32:45 +0000",
       "minecraft:jungle": "2024-03-26 19:23:06 +0000",
+      "minecraft:sunflower_plains": "2024-03-31 18:04:01 +0000",
       "minecraft:birch_forest": "2024-03-26 19:23:47 +0000",
       "minecraft:windswept_hills": "2023-02-19 17:51:22 +0000",
       "minecraft:savanna": "2023-01-29 17:45:31 +0000",
@@ -1003,6 +1004,7 @@
       "minecraft:cow": "2023-01-29 18:43:15 +0000",
       "minecraft:chicken": "2023-08-30 18:41:36 +0000",
       "minecraft:pig": "2024-03-25 19:05:36 +0000",
+      "minecraft:panda": "2024-03-31 20:14:29 +0000",
       "minecraft:sheep": "2024-03-09 18:45:07 +0000",
       "minecraft:bee": "2023-02-11 20:30:02 +0000"
     },
@@ -3596,45 +3598,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
-    "criteria": {
-      "has_leather": "2024-03-27 19:02:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2024-03-27 19:02:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-03-27 20:27:25 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_light_gray_wool": "2024-03-27 19:02:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_wood": {
-    "criteria": {
-      "has_log": "2024-03-27 19:31:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2024-03-27 19:02:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2024-03-27 19:02:12 +0000"
     },
     "done": true
   },
@@ -3650,6 +3616,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2024-03-27 19:02:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2024-03-27 19:02:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2024-03-27 19:02:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2024-03-27 19:02:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2024-03-27 19:02:12 +0000"
@@ -3662,6 +3652,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2024-03-27 19:31:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-03-27 20:27:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dye_black_carpet": {
     "criteria": {
       "has_needed_dye": "2024-03-27 20:27:25 +0000"
@@ -3671,6 +3673,48 @@
   "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2024-03-27 20:27:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-03-31 18:19:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-03-31 18:19:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2024-03-31 19:39:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-03-31 19:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-03-31 20:13:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-03-31 20:13:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-03-31 20:13:54 +0000"
     },
     "done": true
   },

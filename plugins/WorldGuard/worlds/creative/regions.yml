@@ -10,6 +10,14 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    spawnarea:
+        min: {x: -14, y: -60, z: -9}
+        max: {x: 3, y: -52, z: 8}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
     __global__:
         members: {}
         flags: {time-lock: '6000', weather-lock: clear}

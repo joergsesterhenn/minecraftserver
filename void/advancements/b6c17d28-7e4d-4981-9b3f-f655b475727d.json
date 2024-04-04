@@ -13,6 +13,7 @@
       "minecraft:sparse_jungle": "2024-03-26 19:14:33 +0000",
       "minecraft:river": "2023-04-22 05:59:58 +0000",
       "minecraft:lukewarm_ocean": "2023-07-15 07:08:55 +0000",
+      "minecraft:stony_shore": "2024-04-01 19:40:56 +0000",
       "minecraft:dripstone_caves": "2024-03-03 07:29:02 +0000",
       "minecraft:old_growth_birch_forest": "2024-03-26 19:26:10 +0000",
       "minecraft:ocean": "2023-07-26 05:41:17 +0000",
@@ -852,6 +853,7 @@
       "minecraft:chicken": "2023-04-23 18:30:32 +0000",
       "minecraft:pig": "2023-04-29 14:17:58 +0000",
       "minecraft:panda": "2024-03-31 20:14:29 +0000",
+      "minecraft:turtle": "2024-04-01 19:22:31 +0000",
       "minecraft:sheep": "2023-05-25 10:17:06 +0000",
       "minecraft:bee": "2023-04-18 18:12:23 +0000"
     },
@@ -4647,6 +4649,42 @@
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2024-03-26 19:58:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-04-01 19:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2024-04-01 19:21:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-04-03 18:46:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-04-03 18:46:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-04-03 18:46:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-04-03 18:46:32 +0000"
     },
     "done": true
   },

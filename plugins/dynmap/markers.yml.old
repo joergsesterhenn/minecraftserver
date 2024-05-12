@@ -12,15 +12,8 @@ sets:
         areas: {
             }
         label: Spawn Beds
-        markers:
-            .MinecraftKarton_bed:
-                world: world
-                markup: false
-                x: -2668.0
-                icon: bed
-                y: 63.0
-                z: 2421.0
-                label: .MinecraftKarton&#39;s bed
+        markers: {
+            }
         lines: {
             }
         layerprio: 0

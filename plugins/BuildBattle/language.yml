@@ -1,0 +1,152 @@
+Commands:
+  No-Arena-Like-That: ERR_MSG_Commands.No-Arena-Like-That_NOT_FOUND
+  No-Free-Arenas: ERR_MSG_Commands.No-Free-Arenas_NOT_FOUND
+  Only-By-Player: ERR_MSG_Commands.Only-By-Player_NOT_FOUND
+  Removed-Game-Instance: ERR_MSG_Commands.Removed-Game-Instance_NOT_FOUND
+  Main:
+    Description: ERR_MSG_Commands.Main.Description_NOT_FOUND
+    Admin-Bonus-Description: ERR_MSG_Commands.Main.Admin-Bonus-Description_NOT_FOUND
+    Header: ERR_MSG_Commands.Main.Header_NOT_FOUND
+    Footer: ERR_MSG_Commands.Main.Footer_NOT_FOUND
+  Teleported-To-Lobby: ERR_MSG_Commands.Teleported-To-Lobby_NOT_FOUND
+  Type-Arena-Name: ERR_MSG_Commands.Type-Arena-Name_NOT_FOUND
+  Player-Not-Found: ERR_MSG_Commands.Player-Not-Found_NOT_FOUND
+  Admin:
+    Spychat:
+      Toggled: ERR_MSG_Commands.Admin.Spychat.Toggled_NOT_FOUND
+    List:
+      Header: ERR_MSG_Commands.Admin.List.Header_NOT_FOUND
+      No-Arenas: ERR_MSG_Commands.Admin.List.No-Arenas_NOT_FOUND
+      Format: ERR_MSG_Commands.Admin.List.Format_NOT_FOUND
+    Reload-Success: ERR_MSG_Commands.Admin.Reload-Success_NOT_FOUND
+    Adjust-Statistic: ERR_MSG_Commands.Admin.Adjust-Statistic_NOT_FOUND
+  Look-At-Sign: ERR_MSG_Commands.Look-At-Sign_NOT_FOUND
+  No-Permission: ERR_MSG_Commands.No-Permission_NOT_FOUND
+  Invalid-Location-Teleport: ERR_MSG_Commands.Invalid-Location-Teleport_NOT_FOUND
+  Hold-Any-Item: ERR_MSG_Commands.Hold-Any-Item_NOT_FOUND
+  Not-Playing: ERR_MSG_Commands.Not-Playing_NOT_FOUND
+  Did-You-Mean: ERR_MSG_Commands.Did-You-Mean_NOT_FOUND
+  Command-Executed: ERR_MSG_Commands.Command-Executed_NOT_FOUND
+  Wrong-Usage: ERR_MSG_Commands.Wrong-Usage_NOT_FOUND
+Leaderboard:
+  Statistics:
+    Loses: ERR_MSG_Leaderboard.Statistics.Loses_NOT_FOUND
+    Wins: ERR_MSG_Leaderboard.Statistics.Wins_NOT_FOUND
+    Next-Level-Exp: ERR_MSG_Leaderboard.Statistics.Next-Level-Exp_NOT_FOUND
+    Games-Played: ERR_MSG_Leaderboard.Statistics.Games-Played_NOT_FOUND
+    Level: ERR_MSG_Leaderboard.Statistics.Level_NOT_FOUND
+    Exp: ERR_MSG_Leaderboard.Statistics.Exp_NOT_FOUND
+  Type:
+    Chat:
+      Header-Other: ERR_MSG_Leaderboard.Type.Chat.Header-Other_NOT_FOUND
+      Footer: ERR_MSG_Leaderboard.Type.Chat.Footer_NOT_FOUND
+      Top:
+        Header: ERR_MSG_Leaderboard.Type.Chat.Top.Header_NOT_FOUND
+        Type-Name: ERR_MSG_Leaderboard.Type.Chat.Top.Type-Name_NOT_FOUND
+        Format: ERR_MSG_Leaderboard.Type.Chat.Top.Format_NOT_FOUND
+      Header: ERR_MSG_Leaderboard.Type.Chat.Header_NOT_FOUND
+      Format: ERR_MSG_Leaderboard.Type.Chat.Format_NOT_FOUND
+  Invalid-Name: ERR_MSG_Leaderboard.Invalid-Name_NOT_FOUND
+  Unknown-Player: ERR_MSG_Leaderboard.Unknown-Player_NOT_FOUND
+In-Game:
+  Spectator:
+    Menu:
+      Settings:
+        Auto-Teleport: ERR_MSG_In-Game.Spectator.Menu.Settings.Auto-Teleport_NOT_FOUND
+        First-Person-Mode:
+          Action-Bar: ERR_MSG_In-Game.Spectator.Menu.Settings.First-Person-Mode.Action-Bar_NOT_FOUND
+          Title: ERR_MSG_In-Game.Spectator.Menu.Settings.First-Person-Mode.Title_NOT_FOUND
+        Visibility: ERR_MSG_In-Game.Spectator.Menu.Settings.Visibility_NOT_FOUND
+        Status:
+          Enabled: ERR_MSG_In-Game.Spectator.Menu.Settings.Status.Enabled_NOT_FOUND
+          Disabled: ERR_MSG_In-Game.Spectator.Menu.Settings.Status.Disabled_NOT_FOUND
+        Changed-Speed: ERR_MSG_In-Game.Spectator.Menu.Settings.Changed-Speed_NOT_FOUND
+        Night-Vision: ERR_MSG_In-Game.Spectator.Menu.Settings.Night-Vision_NOT_FOUND
+        Target-Player:
+          Action-Bar: ERR_MSG_In-Game.Spectator.Menu.Settings.Target-Player.Action-Bar_NOT_FOUND
+    Spectator-Warning: ERR_MSG_In-Game.Spectator.Spectator-Warning_NOT_FOUND
+    You-Are-Spectator: ERR_MSG_In-Game.Spectator.You-Are-Spectator_NOT_FOUND
+    Blocked: ERR_MSG_In-Game.Spectator.Blocked_NOT_FOUND
+    Target-Player-Health: ERR_MSG_In-Game.Spectator.Target-Player-Health_NOT_FOUND
+    Teleport: ERR_MSG_In-Game.Spectator.Teleport_NOT_FOUND
+    Spectator-Menu-Name: ERR_MSG_In-Game.Spectator.Spectator-Menu-Name_NOT_FOUND
+  Messages:
+    Lobby:
+      Start-In: ERR_MSG_In-Game.Messages.Lobby.Start-In_NOT_FOUND
+      Reduced-Time: ERR_MSG_In-Game.Messages.Lobby.Reduced-Time_NOT_FOUND
+      Waiting-For-Players: ERR_MSG_In-Game.Messages.Lobby.Waiting-For-Players_NOT_FOUND
+      Kicked-For-Premium-Slot: ERR_MSG_In-Game.Messages.Lobby.Kicked-For-Premium-Slot_NOT_FOUND
+      You-Were-Kicked-For-Premium-Slot: ERR_MSG_In-Game.Messages.Lobby.You-Were-Kicked-For-Premium-Slot_NOT_FOUND
+      Enough-Players-To-Start: ERR_MSG_In-Game.Messages.Lobby.Enough-Players-To-Start_NOT_FOUND
+      Game-Started: ERR_MSG_In-Game.Messages.Lobby.Game-Started_NOT_FOUND
+      Max-Players: ERR_MSG_In-Game.Messages.Lobby.Max-Players_NOT_FOUND
+      Not-Enough-Space-For-Party: ERR_MSG_In-Game.Messages.Lobby.Not-Enough-Space-For-Party_NOT_FOUND
+    Join: ERR_MSG_In-Game.Messages.Join_NOT_FOUND
+    Game-End:
+      Placeholders:
+        Win: ERR_MSG_In-Game.Messages.Game-End.Placeholders.Win_NOT_FOUND
+        Players: ERR_MSG_In-Game.Messages.Game-End.Placeholders.Players_NOT_FOUND
+        Lose: ERR_MSG_In-Game.Messages.Game-End.Placeholders.Lose_NOT_FOUND
+      Summary: ERR_MSG_In-Game.Messages.Game-End.Summary_NOT_FOUND
+    Leave: ERR_MSG_In-Game.Messages.Leave_NOT_FOUND
+    Admin:
+      Set-Starting-In-To-0: ERR_MSG_In-Game.Messages.Admin.Set-Starting-In-To-0_NOT_FOUND
+    Death: ERR_MSG_In-Game.Messages.Death_NOT_FOUND
+  Join:
+    Cancelled-Via-API: ERR_MSG_In-Game.Join.Cancelled-Via-API_NOT_FOUND
+    Full-Game: ERR_MSG_In-Game.Join.Full-Game_NOT_FOUND
+    Title: ERR_MSG_In-Game.Join.Title_NOT_FOUND
+    Already-Playing: ERR_MSG_In-Game.Join.Already-Playing_NOT_FOUND
+    As-Party-Member: ERR_MSG_In-Game.Join.As-Party-Member_NOT_FOUND
+    No-Slots-For-Premium: ERR_MSG_In-Game.Join.No-Slots-For-Premium_NOT_FOUND
+    Arena-Not-Configured: ERR_MSG_In-Game.Join.Arena-Not-Configured_NOT_FOUND
+    No-Permission: ERR_MSG_In-Game.Join.No-Permission_NOT_FOUND
+  Plugin-Prefix: ERR_MSG_In-Game.Plugin-Prefix_NOT_FOUND
+  Death:
+    Tag: ERR_MSG_In-Game.Death.Tag_NOT_FOUND
+    Screen: ERR_MSG_In-Game.Death.Screen_NOT_FOUND
+  Game-Chat-Format: ERR_MSG_In-Game.Game-Chat-Format_NOT_FOUND
+  You-Leveled-Up: ERR_MSG_In-Game.You-Leveled-Up_NOT_FOUND
+  Commands-Blocked: ERR_MSG_In-Game.Commands-Blocked_NOT_FOUND
+Color:
+  Chat:
+    Special-Char:
+      Contains: ERR_MSG_Color.Chat.Special-Char.Contains_NOT_FOUND
+      Before: ERR_MSG_Color.Chat.Special-Char.Before_NOT_FOUND
+    Messages: ERR_MSG_Color.Chat.Messages_NOT_FOUND
+    Issue: ERR_MSG_Color.Chat.Issue_NOT_FOUND
+  Placeholder:
+    Player: ERR_MSG_Color.Placeholder.Player_NOT_FOUND
+    Other: ERR_MSG_Color.Placeholder.Other_NOT_FOUND
+    Number: ERR_MSG_Color.Placeholder.Number_NOT_FOUND
+    Value: ERR_MSG_Color.Placeholder.Value_NOT_FOUND
+Placeholders:
+  Game-States:
+    Full-Game: ERR_MSG_Placeholders.Game-States.Full-Game_NOT_FOUND
+    Starting: ERR_MSG_Placeholders.Game-States.Starting_NOT_FOUND
+    Restarting: ERR_MSG_Placeholders.Game-States.Restarting_NOT_FOUND
+    In-Game: ERR_MSG_Placeholders.Game-States.In-Game_NOT_FOUND
+    Ending: ERR_MSG_Placeholders.Game-States.Ending_NOT_FOUND
+    Waiting: ERR_MSG_Placeholders.Game-States.Waiting_NOT_FOUND
+Arena-Selector:
+  Inventory-Title: ERR_MSG_Arena-Selector.Inventory-Title_NOT_FOUND
+  Item:
+    Name: ERR_MSG_Arena-Selector.Item.Name_NOT_FOUND
+    Lore: ERR_MSG_Arena-Selector.Item.Lore_NOT_FOUND
+Do-Not-Edit:
+  Core-Version: ERR_MSG_Do-Not-Edit.Core-Version_NOT_FOUND
+  File-Version: ERR_MSG_Do-Not-Edit.File-Version_NOT_FOUND
+Validator:
+  No-Instances-Created: ERR_MSG_Validator.No-Instances-Created_NOT_FOUND
+  Invalid-Arena-Configuration: ERR_MSG_Validator.Invalid-Arena-Configuration_NOT_FOUND
+  Instance-Started: ERR_MSG_Validator.Instance-Started_NOT_FOUND
+Signs:
+  Lines: ERR_MSG_Signs.Lines_NOT_FOUND
+  Arena-Doesnt-Exists: ERR_MSG_Signs.Arena-Doesnt-Exists_NOT_FOUND
+  Created: ERR_MSG_Signs.Created_NOT_FOUND
+  Removed: ERR_MSG_Signs.Removed_NOT_FOUND
+  Please-Type-Arena-Name: ERR_MSG_Signs.Please-Type-Arena-Name_NOT_FOUND
+Bossbar:
+  Title: ERR_MSG_Bossbar.Title_NOT_FOUND
+Scoreboard:
+  Title: ERR_MSG_Scoreboard.Title_NOT_FOUND

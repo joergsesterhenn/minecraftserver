@@ -13,13 +13,12 @@ regions:
     __global__:
         members: {}
         flags: {other-explosion: deny, lava-fire: deny, frosted-ice-form: deny, mycelium-spread: deny,
-            snow-fall: deny, leaf-decay: deny, ice-melt: deny, fire-spread: deny,
+            snow-fall: deny, ice-melt: deny, leaf-decay: deny, fire-spread: deny,
             enderdragon-block-damage: deny, coral-fade: deny, snowman-trails: deny,
             rock-growth: deny, mob-damage: deny, ravager-grief: deny, mushroom-growth: deny,
-            lightning: deny, wither-damage: deny, ice-form: deny, enderman-grief: deny,
-            mob-spawning: deny, crop-growth: deny, soil-dry: deny, creeper-explosion: deny,
-            vine-growth: deny, snow-melt: deny, frosted-ice-melt: deny, ghast-fireball: deny,
-            grass-growth: deny}
+            lightning: deny, ice-form: deny, wither-damage: deny, enderman-grief: deny,
+            crop-growth: deny, soil-dry: deny, creeper-explosion: deny, vine-growth: deny,
+            snow-melt: deny, frosted-ice-melt: deny, ghast-fireball: deny, grass-growth: deny}
         owners: {}
         type: global
         priority: 0

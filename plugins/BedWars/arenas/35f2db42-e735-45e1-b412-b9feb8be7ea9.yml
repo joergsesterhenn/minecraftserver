@@ -37,150 +37,158 @@ teams:
 spawners:
 - maxSpawnedResources: -1
   hologramEnabled: true
-  location: -1.7573831104703994;66.0;-126.0211613697149;0.0;0.0
+  location: 127.73531570343494;66.0;3.832208558077403;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: bronze
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 128.430892631272;66.0;-2.120008783640334;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: bronze
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -2.8433504592957806;66.0;128.0058968505322;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: bronze
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 3.102670565723121;66.0;128.4816865203834;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: bronze
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -127.14319121601605;66.0;3.216662413629519;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: bronze
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -127.69999998807907;66.0;-2.684099335818762;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: bronze
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -2.1207495626133097;66.0;-127.69999998807907;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: bronze
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 4.221620915307373;66.0;-127.64365578744889;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: bronze
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 0.34;65.0;0.67;0.0;0.0
   customName: null
   startLevel: 1.0
   team: null
   type: gold
 - maxSpawnedResources: -1
   hologramEnabled: true
-  location: 4.171153573175501;66.0;-126.38542425326186;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: iron
-- maxSpawnedResources: -1
-  hologramEnabled: true
-  location: 126.90167601029917;66.0;-1.978731361184997;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: iron
-- maxSpawnedResources: -1
-  hologramEnabled: true
-  location: 127.21438476357736;66.0;4.01408741373053;0.0;0.0
+  location: 16.298178491167572;64.0;19.357348131249193;0.0;0.0
   customName: null
   startLevel: 1.0
   team: null
   type: gold
 - maxSpawnedResources: -1
   hologramEnabled: true
-  location: 2.9593328166527297;66.0;127.09299220328175;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: iron
-- maxSpawnedResources: -1
-  hologramEnabled: true
-  location: -3.2267948793312917;66.0;126.90282721222496;0.0;0.0
+  location: -18.338056524350154;64.0;16.378927106357413;0.0;0.0
   customName: null
   startLevel: 1.0
   team: null
   type: gold
 - maxSpawnedResources: -1
   hologramEnabled: true
-  location: -125.81467737547167;66.0;2.812147400660947;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: iron
-- maxSpawnedResources: -1
-  hologramEnabled: true
-  location: -125.94630731239837;66.0;-3.0288179687427332;0.0;0.0
+  location: -15.52410551734174;63.0;-18.0515094115161;0.0;0.0
   customName: null
   startLevel: 1.0
   team: null
   type: gold
 - maxSpawnedResources: -1
   hologramEnabled: true
-  location: 69.81605994665222;63.5;0.4548162631722958;0.0;0.0
+  location: 18.894334322956272;64.0;-15.442847914149759;0.0;0.0
   customName: null
   startLevel: 1.0
   team: null
-  type: diamond
+  type: gold
 - maxSpawnedResources: -1
   hologramEnabled: true
-  location: 0.28612465950886684;63.5;69.80000001192093;0.0;0.0
+  location: 69.18891435912876;64.0;0.42190889101103135;0.0;0.0
   customName: null
   startLevel: 1.0
   team: null
-  type: diamond
+  type: iron
 - maxSpawnedResources: -1
   hologramEnabled: true
-  location: -68.80000001192093;63.5;0.4982171807385029;0.0;0.0
+  location: 0.48980017190769093;64.0;69.34859975159803;0.0;0.0
   customName: null
   startLevel: 1.0
   team: null
-  type: diamond
+  type: iron
 - maxSpawnedResources: -1
   hologramEnabled: true
-  location: 0.5014927900841483;64.0;-68.69434425307031;0.0;0.0
+  location: -68.43904095459116;64.0;0.5600924757273554;0.0;0.0
   customName: null
   startLevel: 1.0
   team: null
-  type: diamond
+  type: iron
 - maxSpawnedResources: -1
   hologramEnabled: true
-  location: -15.797424365943401;63.0;-18.412806064461765;0.0;0.0
+  location: 0.38804547161921504;64.0;-68.40466159871478;0.0;0.0
   customName: null
   startLevel: 1.0
   team: null
-  type: emerald
-- maxSpawnedResources: -1
-  hologramEnabled: true
-  location: 19.303838311743036;64.0;-15.501629715288319;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: emerald
-- maxSpawnedResources: -1
-  hologramEnabled: true
-  location: 16.182514229973883;64.0;19.56880127442347;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: emerald
-- maxSpawnedResources: -1
-  hologramEnabled: true
-  location: -18.68802875476706;64.0;16.298854265394937;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: emerald
-- maxSpawnedResources: -1
-  hologramEnabled: true
-  location: 0.6021934920414973;65.0;0.5529787975940836;0.0;0.0
-  customName: null
-  startLevel: 1.0
-  team: null
-  type: diamond
+  type: iron
 stores:
 - isBaby: 'false'
-  loc: 0.06447076241871151;66.0;128.0543653878319;179.67566;10.350048
+  loc: 0.047613539502552565;66.0;127.91924076069034;178.50494;20.999817
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
   skin: null
   type: VILLAGER
 - isBaby: 'false'
-  loc: -127.06815609870348;66.0;0.04866273285208976;-89.13025;7.6500506
+  loc: -127.03243715270533;66.0;0.021848311287202556;-88.19354;16.1998
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
+  skin: null
+  type: VILLAGER
+- isBaby: 'true'
+  loc: 9.699999988079071;66.0;-8.699999988079071;49.350708;13.799943
+  parent: 'false'
+  shop: null
+  skin: null
+  type: VILLAGER
+- isBaby: 'true'
+  loc: -8.699999988079071;66.0;9.699999988079071;-134.54785;15.299921
+  parent: 'false'
+  shop: null
   skin: null
   type: VILLAGER
 - isBaby: 'false'
-  loc: 0.8861331194151266;66.0;-126.48417613008165;-0.303833;4.799948
+  loc: 0.8689515863183385;66.0;-127.01224129342138;2.852478;11.549835
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
   skin: null
   type: VILLAGER
 - isBaby: 'false'
-  loc: 127.92785023924344;66.0;0.805032369979293;87.28357;8.849995
+  loc: 127.89664070996602;66.0;0.928436616908563;90.45401;10.199844
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
   skin: null
   type: VILLAGER
 constant:

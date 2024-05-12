@@ -16,3 +16,5 @@ id_rsa
 *.sqlite
 *.mc*
 *.hash
+*.jpg
+report.txt

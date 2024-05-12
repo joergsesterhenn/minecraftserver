@@ -40,7 +40,7 @@ echo "####### Updating Spiggot Plugins #######"
 
 # we get spiggot plugins via spiget api if we have the resourceid
 declare -A spiggotplugins
-spiggotplugins=(["28140"]=LuckPerms ["17311"]=WorldEditSelectionVisualizer ["44703"]=BuildBattle)
+spiggotplugins=(["28140"]=LuckPerms ["17311"]=WorldEditSelectionVisualizer ["44703"]=BuildBattle ["19254"]=ViaVersion ["25391"]=VoidGen)
 
 for plugin in "${!spiggotplugins[@]}"
 do

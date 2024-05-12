@@ -1,7 +1,6 @@
 {"sets": {"spawn_beds": {"hide": true,"circles": {}
 ,"areas": {}
-,"label": "Spawn Beds","markers": {".MinecraftKarton_bed": {"markup": false,"x": -2668.00,"icon": "bed","y": 63.00,"dim": "16x16","z": 2421.00,"label": ".MinecraftKarton&#39;s bed"}
-}
+,"label": "Spawn Beds","markers": {}
 ,"lines": {}
 ,"layerprio": 0,"minzoom": 0}
 ,"markers": {"hide": false,"circles": {}
@@ -11,4 +10,4 @@
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1715537146947}
+,"timestamp": 1715539529947}

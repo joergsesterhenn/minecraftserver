@@ -1,8 +1,13 @@
-{"sets": {"markers": {"hide": false,"circles": {}
+{"sets": {"spawn_beds": {"hide": true,"circles": {}
+,"areas": {}
+,"label": "Spawn Beds","markers": {}
+,"lines": {}
+,"layerprio": 0,"minzoom": 0}
+,"markers": {"hide": false,"circles": {}
 ,"areas": {}
 ,"label": "Markers","markers": {"_spawn_void": {"markup": false,"x": 1.00,"icon": "world","y": 6.00,"dim": "16x16","z": 30.00,"label": "Spawn"}
 }
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1712372451265}
+,"timestamp": 1715539529947}

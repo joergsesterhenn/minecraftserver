@@ -4,6 +4,20 @@ isSafe: true
 icons: {
     }
 sets:
+    spawn_beds:
+        hide: true
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Spawn Beds
+        markers: {
+            }
+        lines: {
+            }
+        layerprio: 0
+        minzoom: 0
     markers:
         hide: false
         circles: {

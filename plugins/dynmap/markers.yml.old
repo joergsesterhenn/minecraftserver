@@ -1,0 +1,42 @@
+%YAML 1.1
+---
+isSafe: true
+icons: {
+    }
+sets:
+    spawn_beds:
+        hide: true
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Spawn Beds
+        markers:
+            .MinecraftKarton_bed:
+                world: world
+                markup: false
+                x: -2668.0
+                icon: bed
+                y: 63.0
+                z: 2421.0
+                label: .MinecraftKarton&#39;s bed
+        lines: {
+            }
+        layerprio: 0
+        minzoom: 0
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Markers
+        markers: {
+            }
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }

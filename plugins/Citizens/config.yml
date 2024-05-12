@@ -127,6 +127,11 @@ npc:
     use-display-entities: false
     # Whether to always update the hologram position every tick
     always-update-position: false
+    # The default renderer for holograms, must be one of the following:
+    # interaction - matches inbuilt nametags most closely
+    # display - allows for different colored backgrounds
+    # armorstand - creates an armorstand and teleports it to the player
+    default-renderer: interaction
   limits:
     # Default maximum number of NPCs owned by a single player (give the citizens ignore-limits permission to skip this check)
     default-limit: 10
@@ -207,6 +212,8 @@ npc:
   use-packet-holograms: false
   delay-player-teleport: -1
   shops:
+    # The global view permission that players need to view any NPC shop
+    # Defaults to empty (no permission required).
     global-view-permission: ''
 general:
   authlib:

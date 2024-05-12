@@ -1,0 +1,41 @@
+data:
+  1069e710-8820-4700-bc3f-715fc52e9ee0:
+    kills: 2
+    wins: 4
+    score: 370
+    loses: 1
+    name: MinecraftKarton
+    destroyedBeds: 2
+    deaths: 1
+  00000000-0000-0000-0009-00000ca8daab:
+    kills: 0
+    wins: 2
+    score: 200
+    loses: 1
+    name: .MinecraftKarton
+    destroyedBeds: 0
+    deaths: 5
+  0f2e4ecf-95fb-4636-a479-de475759b0c5:
+    kills: 0
+    wins: 1
+    score: 75
+    loses: 0
+    name: Tom_7702
+    destroyedBeds: 1
+    deaths: 0
+  b6c17d28-7e4d-4981-9b3f-f655b475727d:
+    kills: 1
+    wins: 1
+    score: 85
+    loses: 1
+    name: HeFeBro
+    destroyedBeds: 1
+    deaths: 5
+  698d968c-7fc2-4f7b-9b17-62392d875b35:
+    kills: 4
+    wins: 1
+    score: 115
+    loses: 1
+    name: refebro
+    destroyedBeds: 1
+    deaths: 2

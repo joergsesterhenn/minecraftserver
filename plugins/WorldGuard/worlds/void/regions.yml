@@ -12,7 +12,8 @@
 regions:
     __global__:
         members: {}
-        flags: {time-lock: '6000', passthrough: allow, weather-lock: clear}
+        flags: {time-lock: '6000', passthrough: allow, greeting-title: Willkommen
+                bei MinecraftKarton, weather-lock: clear, natural-hunger-drain: deny}
         owners: {}
         type: global
         priority: 0

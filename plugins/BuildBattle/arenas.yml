@@ -1,45 +1,18 @@
 instances:
-  buildbattle:
-    isdone: true
-    endlocation: BB-Candyland,73.99,83.0,-41.18,-88.5,4.8
-    maximumplayers: 8
+  default:
+    lobbylocation: world,-1.0,80.0,7.0,0.0,0.0
+    startlocation: world,-1.0,80.0,7.0,0.0,0.0
+    endlocation: world,-1.0,80.0,7.0,0.0,0.0
     minimumplayers: 2
-    lobbylocation: BB-Candyland,73.99,83.0,-41.18,-88.5,4.8
-    mapname: buildbattle
-    gametype: classic
-    startlocation: BB-Candyland,-32.62,120.37,-29.73,-176.56,89.1
-    spectatorlocation: BB-Candyland,-32.62,120.37,-29.73,-176.41,88.95
+    maximumplayers: 10
     plotmembersize: 1
-    floornpc:
-    - BB-Candyland,-34,70,-79,0.0,0.0
-    - BB-Candyland,-34,70,-47,0.0,0.0
-    plots:
-      '1':
-        '1': BB-Candyland,-36.0,69.0,-60.0,0.0,0.0
-        '2': BB-Candyland,-62.0,94.0,-34.0,0.0,0.0
-      '2':
-        '1': BB-Candyland,-36.0,69.0,-92.0,0.0,0.0
-        '2': BB-Candyland,-62.0,94.0,-66.0,0.0,0.0
-      '3':
-        '1': BB-Candyland,-30.0,69.0,-92.0,0.0,0.0
-        '2': BB-Candyland,-4.0,94.0,-66.0,0.0,0.0
-      '4':
-        '1': BB-Candyland,-30.0,69.0,-60.0,0.0,0.0
-        '2': BB-Candyland,-4.0,94.0,-34.0,0.0,0.0
-      '5':
-        '1': BB-Candyland,-30.0,69.0,-2.0,0.0,0.0
-        '2': BB-Candyland,-4.0,94.0,-28.0,0.0,0.0
-      '6':
-        '1': BB-Candyland,-4.0,69.0,4.0,0.0,0.0
-        '2': BB-Candyland,-30.0,94.0,30.0,0.0,0.0
-      '7':
-        '1': BB-Candyland,-36.0,69.0,30.0,0.0,0.0
-        '2': BB-Candyland,-62.0,94.0,4.0,0.0,0.0
-      '8':
-        '1': BB-Candyland,-62.0,69.0,-2.0,0.0,0.0
-        '2': BB-Candyland,-36.0,94.0,-28.0,0.0,0.0
-    signs:
-    - bedwars,1013,3,1011,0.0,0.0
+    mapname: mapname
+    world: worldname
+    # classic (deprecated: solo), guess_the_build
+    gametype: classic
+    isdone: false
+    signs: {}
+    plots: {}
 # Don't edit it. But who's stopping you? It's your server!
 # Really, don't edit ;p
 # You edited it, huh? Next time hurt yourself!

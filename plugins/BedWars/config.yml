@@ -58,7 +58,9 @@ bungee:
     running: '%name%: Game is running [%current%/%max%]'
     rebuilding: '%name%: Rebuilding...'
     disabled: '%name%: Game is disabled'
-  select-random-game: true
+  random-game-selection:
+    enabled: true
+    preselect-games: false
 farmBlocks:
   enable: false
   blocks: []
@@ -84,6 +86,7 @@ shop:
   show-page-numbers: true
   inventory-type: CHEST
   citizens-enabled: false
+  allow-execution-of-console-commands: true
 items:
   jointeam: COMPASS
   leavegame: SLIME_BALL
@@ -271,9 +274,15 @@ database:
   user: root
   password: secret
   table-prefix: bw_
-  useSSL: false
-  add-timezone-to-connection-string: true
-  timezone-id: GMT
+  type: mysql
+  driver: default
+  params:
+    useSSL: false
+    serverTimezone: GMT
+    autoReconnect: true
+    cachePrepStmts: true
+    prepStmtCacheSize: 250
+    prepStmtCacheSqlLimit: 2048
 bossbar:
   use-xp-bar: false
   lobby:

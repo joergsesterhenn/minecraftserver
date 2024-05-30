@@ -8,20 +8,10 @@
 
 # Locale of BuildBattle language. By default it's english.
 # Available localizations:
-#   default - uses messages from 'old_language.yml' file.
-#   de - Deutsche sprache          pl - Jezyk polski
-#   es - Idioma español            fr - Langue française
-#   zh - 简体中文                   vn - Tiếng Việt
-#   hu - Magyar nyelv              kr - 한국어
-#   tr - Türk dili                 id - Bhasa Indonesia
-#   et - Eesti keel                ru - Русский язык
-#   cs - Český jazyk               ro - Limba română
-#   ja - 日本語                     it - Lingua italiana
-#   lt - Lietuvių kalba            sl - Slovenščina
-#   pt_BR - Português (Brasil)     zh_tw - 中文(繁體)
-#   uk - Ukrainian                 be - Belarusian
-#   eu - Basque                    el - Greek
-locale: de
+#    default - English language. Uses 'language.yml'.
+#    See https://github.com/Plugily-Projects/locale_storage/tree/master/plugins/minecraft/buildbattle
+#    Use filename of the language e.g. de_DE.yml -> locale: de_DE
+locale: default
 
 # Should we display a boss bar with additional arena information?
 Bossbar:
@@ -52,23 +42,19 @@ Commands:
   Shorter:
     '1':
       Short: "start"
-      Executes: "plugilyprojectsadmin forcestart"
+      Executes: "buildbattleadmin forcestart"
       Enabled: true
     '2':
       Short: "leave"
-      Executes: "plugilyprojects leave"
+      Executes: "buildbattle leave"
       Enabled: true
     '3':
-      Short: "kit"
-      Executes: "plugilyprojects selectkit"
+      Short: "stats"
+      Executes: "buildbattle stats"
       Enabled: false
     '4':
-      Short: "stats"
-      Executes: "plugilyprojects stats"
-      Enabled: false
-    '5':
       Short: "top"
-      Executes: "plugilyprojects top"
+      Executes: "buildbattle top"
       Enabled: true
 
 
@@ -92,15 +78,20 @@ Database: false
 
 # Should we enable in game rewards? See rewards.yml for more...
 # You should also check out our script engine tutorial for rewards! https://tutorial.plugily.xyz
-Rewards: true
+Rewards: false
 
 
-# Formatting is configurable in old_language.yml
-Plugin-Chat-Format: true
-
-
-# Should we enable a separate arena chat for players inside a arena
-# Useful on multi arena servers that don't want the same chat for all players on the server
+Chat:
+  # Enable in game (eg. '[KIT][LEVEL] Tigerpanzer_02: hey') special formatting?
+  # Formatting is configurable in language.yml
+  # You can use PlaceholderAPI placeholders in chat format!
+  Format: true
+  Separate:
+    # Should we enable a separate arena chat for players inside a arena
+    # Useful on multi arena servers that don't want the same chat for all players on the server
+    Arena: true
+    # Should spectators only write with other spectators
+    Spectators: true
 
 
 # Should we fire some cool fireworks at locations of every player at special events such as the game end?
@@ -118,7 +109,7 @@ Firework: true
 Sign-Block-States: true
 
 
-# S:colorscheme jellybeanshould holiday events for the plugin be enabled?
+# Should holiday events for the plugin be enabled?
 # Eg. 4 days before and 4 days after Halloween special effects
 # for death, spooky! There are more holiday events! Check wiki!
 # Wiki: -
@@ -139,14 +130,14 @@ Parties:
 
 
 Damage:
-  Hunger: false
   # Should players get fall damage?
   Fall: false
   # Should players get drowning damage?
   Drowning: false
   # Should players get fire damage?
   Fire: false
-
+  # Should players lose food ingame & get damage?
+  Hunger: false
 
 Cycle:
   # Should we make permanent clear weather on all worlds where our arenas are?
@@ -274,23 +265,6 @@ Update-Notifier:
   Notify-Beta-Versions: true
 
 
-
-Chat:
-  Format: true
-  Separate:
-    # Should we enable a separate arena chat for players inside a arena
-    # Useful on multi arena servers that don't want the same chat for all players on the server
-    Arena: true
-    # Should spectators only write with other spectators
-    Spectators: true
-# Kits configuration
-# A server restart is required for changes to apply
-Kit:
-  # Should we load kits?
-  Enabled: false
-  # What is the default kit for players?
-  # This should be the same name as the file name of the kits file in the kits folder
-  Default: "knight"
 # Don't edit it. But who's stopping you? It's your server!
 # Really, don't edit ;p
 # You edited it, huh? Next time hurt yourself!

@@ -23,7 +23,7 @@ done
 echo "####### Updating Bukkit Plugins #######"
 
 #define bukkit plugins
-bukkitplugins=(screamingbedwars worldedit multiverse-core multiverse-inventories multiverse-signportals multiverse-portals multiverse-netherportals worldguard)
+bukkitplugins=(worldedit multiverse-core multiverse-inventories multiverse-signportals multiverse-portals multiverse-netherportals worldguard)
 
 # dynmap is currently on beta - can not update to latests release
 
@@ -40,7 +40,7 @@ echo "####### Updating Spiggot Plugins #######"
 
 # we get spiggot plugins via spiget api if we have the resourceid
 declare -A spiggotplugins
-spiggotplugins=(["28140"]=LuckPerms ["17311"]=WorldEditSelectionVisualizer ["44703"]=BuildBattle ["19254"]=ViaVersion ["25391"]=VoidGen)
+spiggotplugins=(["28140"]=LuckPerms ["17311"]=WorldEditSelectionVisualizer ["44703"]=BuildBattle ["19254"]=ViaVersion ["25391"]=VoidGen ["63714"]=Bedwars)
 
 for plugin in "${!spiggotplugins[@]}"
 do

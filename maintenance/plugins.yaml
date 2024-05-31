@@ -1,0 +1,67 @@
+plugins:
+  plugin:
+    name: codframe
+    id:
+    source: deprecated
+    url:
+    latest-version:
+    latest-compatible-paper:
+  plugin:
+    name: dynmap
+    id:
+    source: bukkit
+    url: https://dev.bukkit.org/projects/$plugin/files/latest
+    latest-version:
+    latest-compatible-paper:
+plugin:
+    name: dynmap
+    id:
+    source: bukkit
+    url: https://dev.bukkit.org/projects/$plugin/files/latest
+    latest-version: 7.0.10
+    latest-compatible-paper: 1.20.6
+  plugin:
+    name: geyser
+    id:
+    source: geyser
+    url: https://download.geysermc.org/v2/projects/$plugin/versions/latest/builds/latest/downloads/spigot
+    latest-version:
+    latest-compatible-paper:
+plugin:
+    name: floodgate
+    id:
+    source: geyser
+    url: https://download.geysermc.org/v2/projects/$plugin/versions/latest/builds/latest/downloads/spigot
+    latest-version:
+    latest-compatible-paper:
+plugin:
+    name: LuckPerms
+    id: 28140
+    source: Spigot
+    url: https://api.spiget.org/v2/resources/$plugin/download 
+    latest-version:
+    latest-compatible-paper:
+
+plugin:
+    name: citizens2
+    id: 28140
+    source: citizens
+    url: https://ci.citizensnpcs.co/job/citizens2/lastSuccessfulBuild/artifact/dist/target/*zip*/target.zip 
+    latest-version:
+    latest-compatible-paper:
+
+
+
+hangarplugins (EngineHub/WorldEdit, Multiverse/Multiverse-Core, Multiverse/Multiverse-Inventories, Multiverse/Multiverse-Portals, 
+Multiverse/Multiverse-SignPortals, Multiverse/Multiverse-NetherPortals, MrMicky/WorldEditSelectionVisualizer, ViaVersion/ViaVersion,
+ScreamingSandals/ScreamingBedWars )
+
+bukkitplugins=( dynmap, worldguard)
+spigotplugins=(["28140"]=LuckPerms  ["44703"]=BuildBattle ["25391"]=VoidGen)
+
+echo "####### Updating --citizen-- #######"
+curl -fsL https://ci.citizensnpcs.co/job/citizens2/lastSuccessfulBuild/artifact/dist/target/*zip*/target.zip -o /opt/papermc/plugins/citizen.zip
+rm /opt/papermc/plugins/Citizen*.jar
+unzip -j /opt/papermc/plugins/citizen.zip -d /opt/papermc/plugins/
+rm /opt/papermc/plugins/citizen.zip
+

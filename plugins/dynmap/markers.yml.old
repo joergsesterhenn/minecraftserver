@@ -13,14 +13,14 @@ sets:
             }
         label: Spawn Beds
         markers:
-            .MinecraftKarton_bed:
+            refebro_bed:
                 world: world
                 markup: false
-                x: -2563.0
+                x: -2666.0
                 icon: bed
-                y: 65.0
-                z: 2283.0
-                label: .MinecraftKarton&#39;s bed
+                y: 63.0
+                z: 2420.0
+                label: refebro&#39;s bed
         lines: {
             }
         layerprio: 0

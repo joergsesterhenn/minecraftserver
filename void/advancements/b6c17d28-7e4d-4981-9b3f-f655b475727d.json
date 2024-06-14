@@ -7,22 +7,30 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-06-01 17:56:44 +0000",
       "minecraft:flower_forest": "2023-07-15 06:51:35 +0000",
       "minecraft:beach": "2023-04-22 14:51:10 +0000",
+      "minecraft:old_growth_pine_taiga": "2024-06-01 17:35:19 +0000",
       "minecraft:dark_forest": "2024-04-09 18:21:33 +0000",
       "minecraft:forest": "2023-04-22 05:54:19 +0000",
+      "minecraft:taiga": "2024-06-01 18:53:15 +0000",
       "minecraft:sparse_jungle": "2024-03-26 19:14:33 +0000",
       "minecraft:river": "2023-04-22 05:59:58 +0000",
       "minecraft:lukewarm_ocean": "2023-07-15 07:08:55 +0000",
       "minecraft:stony_shore": "2024-04-01 19:40:56 +0000",
+      "minecraft:lush_caves": "2024-06-01 18:07:29 +0000",
       "minecraft:dripstone_caves": "2024-03-03 07:29:02 +0000",
       "minecraft:old_growth_birch_forest": "2024-03-26 19:26:10 +0000",
       "minecraft:ocean": "2023-07-26 05:41:17 +0000",
       "minecraft:jungle": "2024-03-27 18:59:47 +0000",
       "minecraft:sunflower_plains": "2023-08-31 11:57:14 +0000",
+      "minecraft:grove": "2024-06-01 18:24:54 +0000",
+      "minecraft:meadow": "2024-06-01 18:46:21 +0000",
       "minecraft:birch_forest": "2024-03-26 19:40:25 +0000",
+      "minecraft:old_growth_spruce_taiga": "2024-06-01 18:22:09 +0000",
       "minecraft:savanna": "2023-04-22 05:59:17 +0000",
-      "minecraft:plains": "2023-04-16 17:01:42 +0000"
+      "minecraft:plains": "2023-04-16 17:01:42 +0000",
+      "minecraft:jagged_peaks": "2024-06-06 11:50:33 +0000"
     },
     "done": false
   },
@@ -1692,6 +1700,7 @@
       "golden_apple": "2024-04-21 18:56:43 +0000",
       "cookie": "2024-03-03 08:27:16 +0000",
       "cooked_mutton": "2023-06-05 08:21:37 +0000",
+      "sweet_berries": "2024-06-01 17:53:46 +0000",
       "cooked_beef": "2023-06-03 13:05:04 +0000",
       "baked_potato": "2023-04-22 14:56:41 +0000",
       "beef": "2023-04-22 14:42:54 +0000",
@@ -1700,6 +1709,7 @@
       "apple": "2023-04-22 13:55:21 +0000",
       "cooked_chicken": "2023-06-03 09:07:34 +0000",
       "potato": "2024-03-25 08:01:55 +0000",
+      "cod": "2024-06-05 17:47:05 +0000",
       "cooked_salmon": "2023-07-09 17:19:11 +0000",
       "pumpkin_pie": "2024-03-04 18:39:04 +0000",
       "carrot": "2024-03-20 18:26:52 +0000"
@@ -3038,6 +3048,7 @@
       "minecraft:blaze": "2024-04-09 17:20:54 +0000",
       "minecraft:skeleton": "2023-06-26 17:54:28 +0000",
       "minecraft:zombified_piglin": "2023-06-04 07:33:49 +0000",
+      "minecraft:witch": "2024-06-06 12:11:14 +0000",
       "minecraft:ravager": "2024-03-24 18:45:28 +0000",
       "minecraft:ghast": "2023-07-06 17:48:37 +0000",
       "minecraft:piglin": "2023-06-07 10:02:19 +0000",
@@ -3777,7 +3788,8 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "minecraft:calico": "2023-07-29 18:12:58 +0000"
+      "minecraft:calico": "2023-07-29 18:12:58 +0000",
+      "minecraft:ragdoll": "2024-06-04 18:33:13 +0000"
     },
     "done": false
   },
@@ -4882,6 +4894,60 @@
   "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
     "criteria": {
       "has_moss_block": "2024-05-27 19:46:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-06-01 18:26:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-06-01 18:26:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-06-01 18:26:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-06-01 18:26:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-06-01 18:26:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-06-01 18:26:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-06-05 17:57:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-06-05 18:26:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-06-05 18:26:36 +0000"
     },
     "done": true
   },

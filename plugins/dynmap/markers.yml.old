@@ -12,15 +12,8 @@ sets:
         areas: {
             }
         label: Spawn Beds
-        markers:
-            refebro_bed:
-                world: world
-                markup: false
-                x: -2666.0
-                icon: bed
-                y: 63.0
-                z: 2420.0
-                label: refebro&#39;s bed
+        markers: {
+            }
         lines: {
             }
         layerprio: 0

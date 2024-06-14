@@ -130,8 +130,11 @@ npc:
     # The default renderer for holograms, must be one of the following:
     # interaction - matches inbuilt nametags most closely
     # display - allows for different colored backgrounds
-    # armorstand - creates an armorstand and teleports it to the player
+    # armorstand - the most stable option, very very small hit to client FPS compared to other options
     default-renderer: interaction
+    # The default background color for holograms, specified as an RGB or RGBA value
+    # For example 0,255,123,0 would be green
+    default-background-color: ''
   limits:
     # Default maximum number of NPCs owned by a single player (give the citizens ignore-limits permission to skip this check)
     default-limit: 10

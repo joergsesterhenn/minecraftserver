@@ -5163,5 +5163,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2024-06-02 08:53:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-06-02 18:58:09 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }

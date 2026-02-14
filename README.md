@@ -1,4 +1,4 @@
-Welcome to the minecraftserver wiki!
+# Minecraftserver
 
 This repo contains the config of my minecraft server.
 

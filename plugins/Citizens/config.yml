@@ -26,7 +26,7 @@ npc:
     # How often to repathfind when targeting a dynamic target such as an entity
     update-path-rate: 20
     # The default pathfinding range in blocks
-    # Shouldn't be set too high to avoid lag - try pathfinding in sections instead
+    # Shouldn't be set too high to avoid lag - try pathfinding in shorter segments instead
     default-range-blocks: 75.0
     # The distance in blocks where the NPC will switch to walking straight towards the target instead of pathfinding
     # Currently only for dynamic targets like entities
@@ -38,16 +38,48 @@ npc:
     maximum-visited-blocks: 768
     minecraft:
       max-fall-distance: 3
+      # Minecraft will pick a 'close-enough' location when pathfinding to a block if it can't find a direct path
+      # Disabled by default
+      disable-fallback-navigation: true
+      # The maximum number of blocks to check
+      max-visited-blocks: 1024
+      # The maximum number of blocks to check when pathfinding
+      maximum-search-blocks: 1024
     # The range in blocks before attacking the target
     attack-range: 3.0625
     # Whether to use the Citizens pathfinder instead of the Minecraft pathfinder
     # Much more flexible, but may have different performance to Minecraft's pathfinder
     use-new-finder: false
-    # The default allowed maximum fall distance when pathfinding, set to -1 to use the Minecraft value
+    # The default allowed maximum fall distance when pathfinding, set to -1 to use the default value
     allowed-fall-distance: -1
     # The default action to perform when NPCs are unable to find a path or are stuck in the same block for too long
     # Supported options are: 'teleport to destination' or 'none'
     default-stuck-action: none
+    # Debug pathfinding by showing fake target blocks
+    debug: false
+    # Default duration in the same location before the NPC considers itself stuck and failed pathfinding
+    default-stationary-duration: -1
+    # Debug pathfinding by showing fake target blocks
+    debug-paths: false
+    # The pathfinder type.
+    # Valid options are: CITIZENS, CITIZENS_ASYNC or MINECRAFT.
+    # CITIZENS_ASYNC is a new option that is faster but requires more than one processor core and more memory.
+    pathfinder-type: MINECRAFT
+    citizens:
+      # Number of blocks to pathfind per tick
+      blocks-per-tick: 250
+      # Duration of time to keep chunks used in async pathfinding in memory for.
+      # Decrease this value if you expect chunks to be changed rapidly during pathfinding, or increase it if chunks rarely change during pathfinding at the expense of memory.
+      async-chunk-cache-expiry: 5s
+      # Whether to check bounding boxes when pathfinding such as between fences, inside doors, or other half-blocks
+      check-bounding-boxes: false
+      # The maximum number of blocks to check when pathfinding
+      maximum-search-blocks: 1024
+      # Whether to open doors while pathfinding (should close them as well)
+      open-doors: false
+      # Whether to simulate jumping while pathfinding - increases pathfinding CPU cost.
+      # Async pathfinder recommended. Still experimental.
+      experimental-jumps: false
   default:
     # The default bossbar range, in blocks
     bossbar-view-range: 64
@@ -78,7 +110,7 @@ npc:
       # Default talk close range in blocks
       range: 5
       text:
-        '0': Hi, I'm <npc>!
+      - Hi, I'm <npc>!
     spawn-nodamage-ticks: 20
     stationary-ticks: -1
     # Default duration of no-damage-ticks on entity spawn, Minecraft default is 20 ticks
@@ -88,6 +120,11 @@ npc:
     # Whether to reset NPC yaw on spawn
     # Currently this is implemented by an arm swing animation due to Minecraft limitations
     reset-yaw-on-spawn: true
+    # Default duration of invincibility on entity spawn, Minecraft default is 20 ticks
+    spawn-invincibility-duration: 1s
+    # The default cost to create an NPC
+    npc-cost: 100.0
+    enable-scoreboard-teams: true
   chat:
     options:
       # Whether nearby players also hear text, even if targeted at a specific player
@@ -128,13 +165,19 @@ npc:
     # Whether to always update the hologram position every tick
     always-update-position: false
     # The default renderer for holograms, must be one of the following:
-    # interaction - matches inbuilt nametags most closely
+    # interaction - requires 1.19+, matches nametags more closely than display
     # display - allows for different colored backgrounds
-    # armorstand - the most stable option, very very small hit to client FPS compared to other options
+    # display_vehicle - mounts the display on the NPC
+    # areaeffectcloud - the safest option
+    # armorstand - the second safest option, has a hitbox clientside
+    # armorstand_vehicle - mounts the armorstand on the NPC, only useful for nameplates
     default-renderer: interaction
     # The default background color for holograms, specified as an RGB or RGBA value
-    # For example 0,255,123,0 would be green
+    # For example 0,255,123 would be green and 255,255,255,255 would be transparent
     default-background-color: ''
+    default-name-renderer: ''
+    default-renderer-settings:
+      seeThrough: true
   limits:
     # Default maximum number of NPCs owned by a single player (give the citizens ignore-limits permission to skip this check)
     default-limit: 10
@@ -168,12 +211,14 @@ npc:
     # How long before retrying skin requests (typically due to Mojang rate limiting)
     retry-delay: 120
     rotation-update-degrees: 90.0
+    # Whether to fetch new skins from Minecraft every so often
     use-latest-by-default: false
+    # View distance in blocks
     view-distance: 100.0
     placeholder-update-frequency-ticks: 6000
     # How long to wait before sending skins to joined players
     player-join-update-delay: 3s
-    # How often to update placeholders
+    # How often to update skin placeholders
     placeholder-update-frequency: 5m
     # Whether to try and look for the player skin for all new NPCs
     # If this is set to false and you create an NPC named Dinnerbone, the NPC will have the default (steve/alex/etc) skin rather than trying to fetch the Dinnerbone skin
@@ -191,6 +236,7 @@ npc:
       not-enough-money: You need at least ${0}.
       on-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
       on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      global-maximum-times-used: You have reached the maximum number of uses ({0}).
     # The global cooldown before a command can be used again, must be in seconds
     global-cooldown: 1s
   movement:
@@ -218,6 +264,24 @@ npc:
     # The global view permission that players need to view any NPC shop
     # Defaults to empty (no permission required).
     global-view-permission: ''
+    default-item:
+      max-repeats-on-shift-click: ''
+      result-message: ''
+      already-purchased-message: ''
+      lore: ''
+      times-purchasable: ''
+      cost-message: ''
+      click-to-confirm-message: ''
+    # Whether to add default item description placeholders for all shop items by default.
+    add-default-item-description: false
+  defaults:
+    # The default cost to create an NPC
+    npc-cost: 100.0
+    shops:
+      # The global view permission that players need to view any NPC shop
+      # Defaults to empty (no permission required).
+      global-view-permission: ''
+    enable-scoreboard-teams: true
 general:
   authlib:
     # Search for gameprofiles using this URL
@@ -247,6 +311,12 @@ general:
   interop:
     # Whether to hook into ProtocolLib
     protocollib: true
+  # Whether to reset formatting on color change.
+  # Emulates old color code behavior.
+  reset-formatting-on-color-change: false
+  # Whether to store lists as YAML lists in save files.
+  # Experimental due to risk of data loss but makes the YAML files easier to edit.
+  experimental-list-storage: false
 advanced:
   # Whether to check the minecraft version for compatibility (do not change)
   check-minecraft-version: true

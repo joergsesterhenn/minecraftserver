@@ -1,5 +1,5 @@
 # Multiverse-Inventories Groups
-
+  
 # To ADD, DELETE, and EDIT groups use the command /mvinv group.
 # No support will be given for those who manually edit these groups.
 groups:
@@ -13,5 +13,12 @@ groups:
     - world
     - world_the_end
     - world_nether
+    shares:
+    - all
+  geheimewelt:
+    worlds:
+    - geheimewelt_nether
+    - geheimewelt
+    - geheimewelt_end
     shares:
     - all

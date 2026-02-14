@@ -283,6 +283,9 @@ database:
     cachePrepStmts: true
     prepStmtCacheSize: 250
     prepStmtCacheSqlLimit: 2048
+  add-timezone-to-connection-string: true
+  timezone-id: GMT
+  useSSL: false
 bossbar:
   use-xp-bar: false
   lobby:
@@ -329,6 +332,16 @@ rewards:
   - /example {player} 10
   player-win-run-immediately:
   - /example {player} 200
+  player-game-start:
+  - /example {player} 10
+  player-early-leave:
+  - /example {player} {death} 10
+  team-win:
+  - /example {team} 10
+  player-team-win:
+  - /example {team} {death} 10
+  game-start:
+  - /example Hello World!
 lore:
   generate-automatically: true
   text:
@@ -434,3 +447,7 @@ players-can-win-game-only-after-seconds: 0
 kick-players-upon-final-death:
   enabled: false
   delay: 5
+disable-locator-bars-in-arena-worlds: true
+disable-opening-stores-of-other-teams: false
+disable-waterlogging-of-original-blocks: false
+invisible-lobby-on-game-start: false

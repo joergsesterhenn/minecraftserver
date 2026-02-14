@@ -5,8 +5,6 @@
 # #############################
 #
 # codframe (discontinued)
-# dynmap (beta required)
-
 
 echo "####### Updating Geyser Plugins #######"
 
@@ -24,8 +22,6 @@ echo "####### Updating Bukkit Plugins #######"
 
 #define bukkit plugins
 bukkitplugins=(worldedit multiverse-core multiverse-inventories multiverse-signportals multiverse-portals multiverse-netherportals worldguard)
-
-# dynmap is currently on beta - can not update to latests release
 
 for plugin in "${bukkitplugins[@]}"
 do
@@ -49,6 +45,9 @@ do
   curl -fsL https://api.spiget.org/v2/resources/$plugin/download -o /opt/papermc/plugins/${spiggotplugins[${plugin}]}.jar
   echo "####### Downloading --$plugin-- finished with exit code --$?-- #######"
 done
+
+echo "### Updating --dynmap-- ###"
+curl -fsL https://mediafilez.forgecdn.net/files/7460/127/Dynmap-3.8-spigot.jar -o /opt/papermc/plugins/dynmap.jar
 
 
 echo "####### Updating --citizen-- #######"

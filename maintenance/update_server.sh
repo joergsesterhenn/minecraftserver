@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "##### Update paper to latest version #####"
-echo "skipping until newest is stable again"
-su minecraft -c '/opt/papermc/maintenance/server_update.py /opt/papermc/paper.jar -v 1.20.6 --quiet'
+#echo "skipping until newest is stable again"
+su minecraft -c 'python /opt/papermc/maintenance/server_update.py -o /opt/papermc/paper.jar'
 echo "##### Update geyser/floodgate to latest version #####"
 su minecraft -c '/opt/papermc/maintenance/downloadPlugins.sh'
 echo "#####  Restarting Minecraft Server #####"

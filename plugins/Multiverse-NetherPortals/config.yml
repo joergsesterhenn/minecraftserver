@@ -9,4 +9,11 @@ portal-auto-link-when:
   end:
     prefix: ''
     suffix: _the_end
-worlds: {}
+worlds:
+  geheimewelt_end:
+    portalgoesto:
+      ENDER: geheimewelt
+  geheimewelt:
+    portalgoesto:
+      ENDER: geheimewelt_end
+end_platform_drop_blocks: true

@@ -67,6 +67,20 @@ Block:
     Leave: false
     # Cancels Item Movement into player crafting, enchantment tables, anvils ...
     Item-Move: true
+    ArmorStand: 
+        # Should we block armor stand destroy with double click?
+        Destroy: true
+        # Should we block armor stand interaction?
+        Interact: true
+        # Should these only be blocked while ingame and arena state is in_game? (e.g. Lobby and Ending is blocked)
+        # Setting it to false means on all stages of the game the event will be cancelled. 
+        # Setting it to true means only while IN_GAME the event will be cancelled.
+        Check: true
+    # Should all interactions with interactive materials such as doors / buttons / fences / redstone be blocked during ingame
+    # Full list see https://github.com/CryptoMorin/XSeries/blob/e84000a2bead7367d893cf8661f8d5432116adaa/core/src/main/java/com/cryptomorin/xseries/XTag.java#L2793
+    Interact: false
+
+
 
 
 # Enable this option when you're using MySQL, otherwise it won't work.
@@ -79,6 +93,10 @@ Database: false
 # Should we enable in game rewards? See rewards.yml for more...
 # You should also check out our script engine tutorial for rewards! https://tutorial.plugily.xyz
 Rewards: false
+
+
+# Enable the super votes in the theme vote menu
+Super-Votes: true
 
 
 Chat:
@@ -270,4 +288,4 @@ Update-Notifier:
 # You edited it, huh? Next time hurt yourself!
 Do-Not-Edit:
   File-Version: 1
-  Core-Version: 4
+  Core-Version: 6

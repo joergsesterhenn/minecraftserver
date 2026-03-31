@@ -18,16 +18,24 @@ do
   echo "####### Downloading --$plugin-- finished with exit code --$?-- #######"
 done
 
-echo "####### Updating Bukkit Plugins #######"
 
-#define bukkit plugins
-bukkitplugins=(worldedit multiverse-core multiverse-inventories multiverse-signportals multiverse-portals multiverse-netherportals worldguard)
+echo "####### Updating Modrinth Plugins ######"
 
-for plugin in "${bukkitplugins[@]}"
+#define modrinth plugins
+modrinthplugins=(griefprevention worldedit multiverse-core multiverse-inventories multiverse-signportals multiverse-portals multiverse-netherportals worldguard)
+
+for plugin in "${modrinthplugins[@]}"
 do
   echo "####### Updating --$plugin-- #######"
-  echo "########## curl -fsL https://dev.bukkit.org/projects/$plugin/files/latest -o /opt/papermc/plugins/$plugin.jar"
-  curl -fsL https://dev.bukkit.org/projects/$plugin/files/latest -o /opt/papermc/plugins/$plugin.jar
+  API_URL="https://api.modrinth.com/v2/project/${plugin}/version"
+  LATEST_JSON=$(curl -s "${API_URL}")
+  DOWNLOAD_URL=$(echo "$LATEST_JSON" | jq -r '.[0].files[0].url')
+  if [[ -z "$DOWNLOAD_URL" || "$DOWNLOAD_URL" == "null" ]]; then
+  echo "Failed to get download URL"
+  exit 1
+  fi
+  echo "########## curl -L $DOWNLOAD_URL -o /opt/papermc/plugins/${plugin}.jar"
+  curl -fsL "$DOWNLOAD_URL" -o "/opt/papermc/plugins/$i{plugin}.jar"
   echo "####### Downloading --$plugin-- finished with exit code --$?-- #######"
 done
 

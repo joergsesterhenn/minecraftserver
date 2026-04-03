@@ -7,28 +7,28 @@ GriefPrevention:
     void_the_end: -1
     geheimewelt_nether: -1
     geheimewelt: -1
+    BB-Candyland: -1
     creative: -1
     world: -1
     world_the_end: -1
     world_nether: -1
     papa: -1
-    BB-Candyland: -1
     bedwars: -1
     geheimewelt_end: -1
   Claims:
     Mode:
       creative: Creative
-      void: Survival
-      world: Survival
-      papa: Survival
-      BB-Candyland: Survival
+      void: Disabled
+      world: Disabled
+      papa: Disabled
+      BB-Candyland: Disabled
       world_the_end: Disabled
-      geheimewelt: Survival
+      geheimewelt: Disabled
       geheimewelt_end: Disabled
       void_nether: Disabled
       geheimewelt_nether: Disabled
       void_the_end: Disabled
-      bedwars: Survival
+      bedwars: Disabled
       world_nether: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
@@ -99,12 +99,12 @@ GriefPrevention:
       void_the_end: true
       geheimewelt_nether: true
       geheimewelt: true
+      BB-Candyland: true
       creative: true
       world: true
       world_the_end: true
       world_nether: true
       papa: true
-      BB-Candyland: true
       bedwars: true
       geheimewelt_end: true
     ProtectFreshSpawns: true

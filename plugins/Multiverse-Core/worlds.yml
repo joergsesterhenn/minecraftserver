@@ -34,45 +34,45 @@ BB-Candyland:
     pitch: -2.699859
     yaw: -89.400536
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: false
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -112,45 +112,45 @@ bedwars:
     pitch: 7.0500197
     yaw: -176.41632
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: false
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: false
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -190,45 +190,45 @@ creative:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -268,45 +268,45 @@ geheimewelt:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -346,45 +346,45 @@ geheimewelt_end:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -424,45 +424,45 @@ geheimewelt_nether:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -477,13 +477,13 @@ papa:
   auto-load: true
   bed-respawn: true
   biome: ''
-  difficulty: normal
+  difficulty: peaceful
   entry-fee:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
   environment: normal
-  gamemode: survival
+  gamemode: creative
   generator: ''
   hidden: false
   hunger: true
@@ -502,45 +502,45 @@ papa:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -580,45 +580,45 @@ void:
     pitch: -4.800029
     yaw: 1.9431152
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -658,45 +658,45 @@ void_nether:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -736,45 +736,45 @@ void_the_end:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -814,45 +814,45 @@ world:
     pitch: 29.999954
     yaw: -161.10027
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -892,45 +892,45 @@ world_nether:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2
@@ -970,45 +970,45 @@ world_the_end:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: -1
-      spawn-limit: -1
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
   version: 1.2

@@ -8,9 +8,10 @@
 #                                                                                                                 #
 #                                                                                                                 #
 #                                                                                                                 #
-#            WIKI:        https://github.com/Multiverse/Multiverse-Core/wiki/Basics-(Inventories)                 #
+#            WIKI:        https://mvplugins.org/inventories/                                                      #
 #            DISCORD:     https://discord.gg/NZtfKky                                                              #
 #            BUG REPORTS: https://github.com/Multiverse/Multiverse-Inventories/issues                             #
+#            DONATE:      https://github.com/sponsors/Multiverse                                                  #
 #                                                                                                                 #
 #                                                                                                                 #
 #            New options are added to this file automatically. If you manually made changes                       #
@@ -41,9 +42,11 @@ share-handling:
   
   
 sharables:
-  # When enabled, we will use 1.21's PlayerSpawnChangeEvent to better detect bed and anchor respawn locations.
-  # This options is not applicable for older minecraft server versions.
-  use-improved-respawn-location-detection: true
+  # When enabled, we will validate the bed/anchor respawn location on group/world change.
+  # The validation checks if the bed/anchor block still exists at the saved location and is usable.
+  # When the validation fails, the respawn location will be cleared and default world spawn will be used instead.
+  # Disable this if you don't want validation, or you want another plugin to handle respawn logic.
+  validate-bed-anchor-respawn-location: true
   
   # When set to true, the last location of the player will be reset when they die.
   # This is useful if they respawn in a different world and you do not want them to return to their death location.
@@ -67,7 +70,6 @@ sharables:
   
   
 performance:
-  
   # Minecraft will already load the most up-to-date player data and this option will generally be redundant.
   # The only possible edge case uses is if you have a need to always modify the mvinv playerdata while the player is offline.
   apply-playerdata-on-join: false
@@ -97,6 +99,19 @@ misc:
   # This config option defines whether or not Multiverse should register the PlaceholderAPI hook.
   # This only applies if PlaceholderAPI is installed.
   register-papi-hook: true
+  
+  # These are the maximum sizes for each inventory type. You should not change these values unless
+  # you have a plugin or feature that changes the size of these inventories.
+  # -------
+  # Changing these values without a plugin or feature that increases the size of these inventories
+  # may result in errors and loss of items when switching worlds/groups. This config option is merely
+  # to resolve compatibility issues with other plugins/features that alter inventory sizes.
+  # -------
+  # One notable example is if you used purpur's config option to increase ender chest size.
+  max-items-size:
+    inventory: 36
+    ender-chest: 27
+    armor: 4
   
   
 # Do not edit the following values!!!!!

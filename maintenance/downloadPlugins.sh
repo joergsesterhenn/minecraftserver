@@ -22,7 +22,7 @@ done
 echo "####### Updating Modrinth Plugins ######"
 
 #define modrinth plugins
-modrinthplugins=(griefprevention worldedit multiverse-core multiverse-inventories multiverse-signportals multiverse-portals multiverse-netherportals worldguard)
+modrinthplugins=(griefprevention fastasyncworldedit multiverse-core multiverse-inventories multiverse-signportals multiverse-portals multiverse-netherportals worldguard)
 
 for plugin in "${modrinthplugins[@]}"
 do
@@ -35,7 +35,7 @@ do
   exit 1
   fi
   echo "########## curl -L $DOWNLOAD_URL -o /opt/papermc/plugins/${plugin}.jar"
-  curl -fsL "$DOWNLOAD_URL" -o "/opt/papermc/plugins/$i{plugin}.jar"
+  curl -fsL "$DOWNLOAD_URL" -o "/opt/papermc/plugins/${plugin}.jar"
   echo "####### Downloading --$plugin-- finished with exit code --$?-- #######"
 done
 

@@ -17,4 +17,5 @@ id_rsa
 *.mc*
 *.hash
 *.jpg
+*.bd
 report.txt

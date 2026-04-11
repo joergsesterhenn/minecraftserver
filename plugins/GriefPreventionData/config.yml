@@ -9,6 +9,7 @@ GriefPrevention:
     geheimewelt: -1
     BB-Candyland: -1
     creative: -1
+    Lobby: -1
     world: -1
     world_the_end: -1
     world_nether: -1
@@ -19,16 +20,17 @@ GriefPrevention:
     Mode:
       creative: Creative
       void: Disabled
+      void_the_end: Disabled
       world: Disabled
       papa: Disabled
       BB-Candyland: Disabled
       world_the_end: Disabled
       geheimewelt: Disabled
       geheimewelt_end: Disabled
-      void_nether: Disabled
       geheimewelt_nether: Disabled
-      void_the_end: Disabled
+      Lobby: Survival
       bedwars: Disabled
+      void_nether: Disabled
       world_nether: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
@@ -101,6 +103,7 @@ GriefPrevention:
       geheimewelt: true
       BB-Candyland: true
       creative: true
+      Lobby: true
       world: true
       world_the_end: true
       world_nether: true

@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 10
+last-created-npc-id: 8
 npc:
   '0':
     metadata:
@@ -11,13 +11,14 @@ npc:
     uuid: 3cf6e177-53e1-441a-82f5-8c0579fabb42
     traits:
       location:
-        bodyYaw: 95.418335
-        x: 1021.5041
-        y: -1.0
-        z: 988.5994
-        yaw: 49.8582
+        bodyYaw: 222.81732
+        x: 1012.9447
+        y: -5.940955958491E8
+        z: 1027.9406
+        yaw: -137.1827
         pitch: 0.0
         worldid: 15bc1039-73f1-4a44-9c74-5eb60fdb6815
+        world: bedwars
       age: {
         }
       horsemodifiers: {
@@ -62,7 +63,7 @@ npc:
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
-    traitnames: scoreboardtrait,spawned,owner,skintrait,mounttrait,inventory,type,waypoints,horsemodifiers,foxtrait,location,age,chunktickettrait
+    traitnames: scoreboardtrait,spawned,owner,horsemodifiers,foxtrait,skintrait,mounttrait,location,inventory,type,waypoints,age
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -74,13 +75,14 @@ npc:
     uuid: 195aad8a-243d-4df0-9f1f-931073eaeb5c
     traits:
       location:
-        bodyYaw: 36.81254
-        x: 980.231
-        y: 0.0
-        z: 988.5306
-        yaw: 36.503
-        pitch: 0.0
+        bodyYaw: 230.09442
+        x: 1023.9834
+        y: -1.71071814981E7
+        z: 1028.5565
+        yaw: -14.1322
+        pitch: -6.5135
         worldid: 15bc1039-73f1-4a44-9c74-5eb60fdb6815
+        world: bedwars
       age:
         age: -24000
       waypoints:
@@ -93,88 +95,8 @@ npc:
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
-    traitnames: scoreboardtrait,spawned,owner,mounttrait,location,type,waypoints,age,chunktickettrait
+    traitnames: scoreboardtrait,spawned,owner,mounttrait,location,type,waypoints,age
     navigator:
       speedmodifier: 1.0
       avoidwater: false
       usedefaultstuckaction: false
-  '9':
-    traits:
-      scoreboardtrait:
-        tags:
-        - CITIZENS_NPC
-      owner:
-        uuid: 1069e710-8820-4700-bc3f-715fc52e9ee0
-      lookclose:
-        enabled: true
-        randomPitchRange:
-        - 0.0
-        - 0.0
-        randomYawRange:
-        - 0.0
-        - 360.0
-      location:
-        worldid: 769a90ce-486f-4ed6-a50c-8e8ca8cdd304
-        x: -0.5728
-        y: 9.0
-        z: 34.7213
-        bodyYaw: -159.53996
-        pitch: 30.703
-        yaw: -159.54
-      type: COW
-    traitnames: scoreboardtrait,spawned,owner,rotationtrait,lookclose,location,type
-    name: Mooo
-    navigator:
-      usedefaultstuckaction: false
-      speedmodifier: 1.0
-      avoidwater: false
-    uuid: 120a3f92-08f7-4ca2-aa3e-e48c2039a360
-  '10':
-    metadata:
-      cached-skin-uuid: 6f3d2bbc-99ba-447c-95d0-a8b5a8b773cd
-      nameplate-visible: hover
-      cached-skin-uuid-name: b63475d3-3a96-45e5-acce-13b88e19de08
-      minecraft-ai: false
-    traits:
-      scoreboardtrait:
-        tags:
-        - CITIZENS_NPC
-      owner:
-        uuid: 1069e710-8820-4700-bc3f-715fc52e9ee0
-      skintrait:
-        signature: IZOhhnJoof07sJAxaR7yt5UYub6mcSf/+Y7BdO+WTUnAYRLXOB5KvrpFpJxcKdNnk6V9H6biQDeygupEykNUl/IVCbRcrgfvQTEo38od/0SwmO3z+Wp2BwQeVYL2ttaNisqxLSk7tstfqFw8s4IHd2C7Vbka9SV632JWd6aIRNhpIjwtkOrHcWr5KfJ0NJQk0slkJpovfK8SNTTjXpITEQIc8N+rfg40Ck0NssjHQ2hXBr/79uZZox2IuMmBO87B3o0gMygAFCgcxHfyZt+xnZNUf8Mnc7UXptQKr/U3y+hSeoJ0HMdvY6MYUSp9JU8fJh+qrwFXfVO/yTdvjyl5b9YPyDldGlkJB/5JM6ow1eaUP5Hq0OwCnJoJlVFHxIlOGIF9LMv31IqbSIzMpH4r/0ofdjt4ABal5VNlhmYZ4/dc9kn4JW/KJ4aC1T7eJz9EoY08tSN6Al/RNQObRWLsLwImwNrVJOR83lfbAI+I6rEvNU6Yee4wzwg2+jYN/pfjvFm16DQneEXYo3giLduvk0HvGybjWkUM1KE6Ic5TjcRn5ryn5JyVBf+LfBUtXlxpCkFlJetm0qJoXLJZ4Hwa4FYK43Izv/r4mac9kzTl9AhyqkzrUXB8DG7BXpIDKqV/JZZMq4ITgzk8cLNJdbi3IMjbK+gxsam0SWY9t/T3RzI=
-        skinName: b63475d3-3a96-45e5-acce-13b88e19de08
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyMTQzNzk4Mzg5MCwKICAicHJvZmlsZUlkIiA6ICI4OGU0YWNiYTQwOTc0YWZkYmE0ZDM1YjdlYzdmNmJmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKb2FvMDkxNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82N2I3YmY5YTY0YWIwNWEwNWFhNzZlZWM1NjNhZjgzMTlkNzViYWQ1N2FlMGQzMzU2ZTVjODZiMGNhNjVlMzZiIgogICAgfQogIH0KfQ==
-      lookclose:
-        enabled: true
-        randomPitchRange:
-        - 0.0
-        - 0.0
-        randomYawRange:
-        - 0.0
-        - 360.0
-      pausepathfinding:
-        playerrange: 5.0
-      location:
-        worldid: 769a90ce-486f-4ed6-a50c-8e8ca8cdd304
-        x: -10.1851
-        y: 6.42
-        z: 17.7283
-        bodyYaw: 251.57082
-        pitch: 0.0
-        yaw: -108.4292
-      text:
-        range: 3.0
-        text:
-        - Hallo, ich bin Luffy, Konig der Piraten
-        - Willkommen auf der "Going Merry"
-      type: PLAYER
-      waypoints:
-        provider: wander
-    traitnames: scoreboardtrait,spawned,owner,rotationtrait,skintrait,lookclose,pausepathfinding,type,inventory,waypoints,location,text,chunktickettrait
-    name: Luffy
-    navigator:
-      usedefaultstuckaction: false
-      speedmodifier: 1.0
-      avoidwater: false
-    uuid: 3988ac32-dcff-471b-9b31-848f18018058

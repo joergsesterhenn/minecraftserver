@@ -1,0 +1,7 @@
+# Whether or not to check for updates.
+check_for_updates: 'no'
+# bStats metrics collected by this plugin.
+# https://bstats.org/plugin/bukkit/VoidGen/26816
+enable_metrics: 'no'
+# Setting it to false will disable all debug messages.
+enable_verbose: 'no'

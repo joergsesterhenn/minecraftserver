@@ -123,7 +123,7 @@ spawn:
   
   # Sets the world that Multiverse will use as the location for players that join the server for the first time.
   # This only applies if first-spawn-override is set to true.
-  first-spawn-location: void
+  first-spawn-location: w:Lobby
   
   # Enables setting of a fixed location for players to spawn in when they join the server every time.
   # See `join-destination` option below as well.

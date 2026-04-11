@@ -76,6 +76,84 @@ BB-Candyland:
       exceptions: []
   world-blacklist: []
   version: 1.2
+Lobby:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: easy
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  environment: normal
+  gamemode: adventure
+  generator: VoidGen
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: false
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 1.0
+  seed: -4548000488950936716
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 12.96160118452064
+    y: 81.0
+    z: 20.626723799611348
+    pitch: -6.6000347
+    yaw: -88.20013
+  spawning:
+    monster:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_animal:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+  world-blacklist: []
+  version: 1.2
 bedwars:
   adjust-spawn: true
   alias: Arena
@@ -156,7 +234,7 @@ bedwars:
   version: 1.2
 creative:
   adjust-spawn: true
-  alias: creative
+  alias: ''
   allow-advancement-grant: true
   allow-flight: true
   allow-weather: true
@@ -477,13 +555,13 @@ papa:
   auto-load: true
   bed-respawn: true
   biome: ''
-  difficulty: peaceful
+  difficulty: normal
   entry-fee:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
   environment: normal
-  gamemode: creative
+  gamemode: survival
   generator: ''
   hidden: false
   hunger: true
@@ -546,7 +624,7 @@ papa:
   version: 1.2
 void:
   adjust-spawn: true
-  alias: Lobby
+  alias: ship
   allow-advancement-grant: true
   allow-flight: true
   allow-weather: true
@@ -624,9 +702,9 @@ void:
   version: 1.2
 void_nether:
   adjust-spawn: true
-  alias: void_nether
+  alias: ''
   allow-advancement-grant: true
-  allow-flight: true
+  allow-flight: false
   allow-weather: true
   anchor-respawn: true
   auto-heal: true
@@ -643,68 +721,68 @@ void_nether:
   generator: ''
   hidden: false
   hunger: true
-  keep-spawn-in-memory: true
+  keep-spawn-in-memory: false
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 8.0
-  seed: 471505749430507100
+  seed: -8884311361614835843
   spawn-location:
     ==: MVSpawnLocation
-    x: 0.0
-    y: 62.0
-    z: 0.0
+    x: 26.0
+    y: 43.0
+    z: 8.0
     pitch: 0.0
     yaw: 0.0
   spawning:
     monster:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     water_ambient:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     water_underground_creature:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     ambient:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     axolotl:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     misc:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
   world-blacklist: []
   version: 1.2
 void_the_end:
   adjust-spawn: true
-  alias: void_the_end
+  alias: ''
   allow-advancement-grant: true
-  allow-flight: true
+  allow-flight: false
   allow-weather: true
   anchor-respawn: true
   auto-heal: true
@@ -721,60 +799,60 @@ void_the_end:
   generator: ''
   hidden: false
   hunger: true
-  keep-spawn-in-memory: true
+  keep-spawn-in-memory: false
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
-  scale: 16.0
-  seed: 471505749430507100
+  scale: 1.0
+  seed: -8884311361614835843
   spawn-location:
     ==: MVSpawnLocation
     x: 0.0
-    y: 64.0
+    y: 62.0
     z: 0.0
     pitch: 0.0
     yaw: 0.0
   spawning:
     monster:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     water_ambient:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     water_underground_creature:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     ambient:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     axolotl:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     misc:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
   world-blacklist: []
   version: 1.2

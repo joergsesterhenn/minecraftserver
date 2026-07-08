@@ -40,7 +40,7 @@ do
       [
         .[]
         | select(.version_type == "release")
-        | select(any(.game_versions[]; startswith("1.21")))
+        | select(any(.game_versions[]; startswith("26.1")))
         | select(any(.loaders[]; . == $loader))
       ]
       | sort_by(.date_published)
@@ -57,7 +57,7 @@ do
     echo "$VERSIONS" | jq -r --arg loader "$loader" '
       [
         .[]
-        | select(any(.game_versions[]; startswith("1.21")))
+        | select(any(.game_versions[]; startswith("26")))
         | select(any(.loaders[]; . == $loader))
       ]
       | sort_by(.date_published)
@@ -105,10 +105,10 @@ for plugin in "${hangarplugins[@]}"; do
   API_URL="https://hangar.papermc.io/api/v1/projects/${AUTHOR}/${PROJECT}/versions"
   VERSIONS_JSON=$(curl -s -H "User-Agent: joerg-mc-updater/1.0" "$API_URL")
 
-  # Find latest version supporting MC 1.21
+  # Find latest version supporting MC 26.1
   VERSION=$(echo "$VERSIONS_JSON" | jq -r '
     .result[]
-    | select(.platformDependencies.PAPER | index("1.21"))
+    | select(.platformDependencies.PAPER | index("26.1"))
     | .name
   ' | sort -V | tail -n 1)
 
@@ -151,9 +151,13 @@ do
 done
 
 echo "### Updating --dynmap-- ###"
-echo "####### curl -fsL https://mediafilez.forgecdn.net/files/7460/127/Dynmap-3.8-spigot.jar -o /opt/papermc/plugins/dynmap.jar"
-curl -fsL https://mediafilez.forgecdn.net/files/7460/127/Dynmap-3.8-spigot.jar -o /opt/papermc/plugins/dynmap.jar
-
+#echo "####### curl -fsL https://mediafilez.forgecdn.net/files/7460/127/Dynmap-3.8-spigot.jar -o /opt/papermc/plugins/dynmap.jar"
+#curl -fsL https://mediafilez.forgecdn.net/files/7460/127/Dynmap-3.8-spigot.jar -o /opt/papermc/plugins/dynmap.jar
+curl -fsL https://github.com/user-attachments/files/29136171/Dynmap-3.9-SNAPSHOT-26.1-2.zip -o /opt/papermc/plugins/dynmap.zip
+unzip /opt/papermc/plugins/dynmap.zip -d /opt/papermc/plugins/
+rm /opt/papermc/plugins/dynmap.jar
+rm /opt/papermc/plugins/dynmap.zip
+mv /opt/papermc/plugins/Dynmap-3.9-SNAPSHOT-spigot.jar /opt/papermc/plugins/dynmap.jar
 
 echo "####### Updating --citizen-- #######"
 curl -fsL https://ci.citizensnpcs.co/job/citizens2/lastSuccessfulBuild/artifact/dist/target/*zip*/target.zip -o /opt/papermc/plugins/citizen.zip

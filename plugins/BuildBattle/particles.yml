@@ -1143,3 +1143,17 @@ COPPER_FIRE_FLAME:
   - '&7on your location'
   material-name: PAPER
   permission: buildbattle.particles
+PAUSE_MOB_GROWTH:
+  displayname: '&6PAUSE_MOB_GROWTH'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+RESET_MOB_GROWTH:
+  displayname: '&6RESET_MOB_GROWTH'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles

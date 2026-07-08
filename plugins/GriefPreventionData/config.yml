@@ -5,24 +5,24 @@ GriefPrevention:
     void: -1
     void_nether: -1
     void_the_end: -1
-    geheimewelt_nether: -1
-    geheimewelt: -1
     BB-Candyland: -1
-    creative: -1
-    Lobby: -1
-    world: -1
-    world_the_end: -1
-    world_nether: -1
-    papa: -1
     bedwars: -1
+    creative: -1
+    geheimewelt: -1
     geheimewelt_end: -1
+    geheimewelt_nether: -1
+    Lobby: -1
+    papa: -1
+    world: -1
+    world_nether: -1
+    world_the_end: -1
   Claims:
     Mode:
       creative: Creative
       void: Disabled
       void_the_end: Disabled
-      world: Disabled
       papa: Disabled
+      world: Disabled
       BB-Candyland: Disabled
       world_the_end: Disabled
       geheimewelt: Disabled
@@ -99,17 +99,17 @@ GriefPrevention:
       void: true
       void_nether: true
       void_the_end: true
-      geheimewelt_nether: true
-      geheimewelt: true
       BB-Candyland: true
-      creative: true
-      Lobby: true
-      world: true
-      world_the_end: true
-      world_nether: true
-      papa: true
       bedwars: true
+      creative: true
+      geheimewelt: true
       geheimewelt_end: true
+      geheimewelt_nether: true
+      Lobby: true
+      papa: true
+      world: true
+      world_nether: true
+      world_the_end: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15

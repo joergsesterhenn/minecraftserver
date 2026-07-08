@@ -1,4 +1,4 @@
-BB-Candyland:
+minecraft:bb-candyland:
   adjust-spawn: true
   alias: ''
   allow-advancement-grant: true
@@ -14,18 +14,17 @@ BB-Candyland:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
   gamemode: adventure
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: 9008004436546187823
   spawn-location:
     ==: MVSpawnLocation
     x: 73.98783982820963
@@ -75,86 +74,13 @@ BB-Candyland:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-Lobby:
-  adjust-spawn: true
-  alias: ''
-  allow-advancement-grant: true
-  allow-flight: false
-  allow-weather: true
-  anchor-respawn: true
-  auto-heal: true
-  auto-load: true
-  bed-respawn: true
-  biome: ''
-  difficulty: easy
-  entry-fee:
-    enabled: false
-    amount: 0.0
-    currency: '@vault-economy'
-  environment: normal
-  gamemode: adventure
-  generator: VoidGen
-  hidden: false
-  hunger: true
-  keep-spawn-in-memory: false
-  player-limit: -1
-  portal-form: all
-  pvp: true
-  respawn-world: ''
-  scale: 1.0
-  seed: -4548000488950936716
-  spawn-location:
-    ==: MVSpawnLocation
-    x: 12.96160118452064
-    y: 81.0
-    z: 20.626723799611348
-    pitch: -6.6000347
-    yaw: -88.20013
-  spawning:
-    monster:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    animal:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_animal:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_underground_creature:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-  world-blacklist: []
-  version: 1.2
-bedwars:
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: BB-Candyland
+    seed: 9008004436546187823
+  version: 1.3
+minecraft:bedwars:
   adjust-spawn: true
   alias: Arena
   allow-advancement-grant: true
@@ -170,18 +96,17 @@ bedwars:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
   gamemode: adventure
   generator: VoidGen
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: bedwars
   scale: 1.0
-  seed: 7952326218446091616
   spawn-location:
     ==: MVSpawnLocation
     x: 1002.5190562517914
@@ -231,8 +156,13 @@ bedwars:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-creative:
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: bedwars
+    seed: 7952326218446091616
+  version: 1.3
+minecraft:creative:
   adjust-spawn: true
   alias: ''
   allow-advancement-grant: true
@@ -248,18 +178,17 @@ creative:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
   gamemode: creative
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: void
   scale: 1.0
-  seed: -3075509700832973075
   spawn-location:
     ==: MVSpawnLocation
     x: 0.0
@@ -309,8 +238,13 @@ creative:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-geheimewelt:
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: creative
+    seed: -3075509700832973075
+  version: 1.3
+minecraft:geheimewelt:
   adjust-spawn: true
   alias: geheimewelt
   allow-advancement-grant: true
@@ -326,18 +260,17 @@ geheimewelt:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: 4405134068028
   spawn-location:
     ==: MVSpawnLocation
     x: 192.0
@@ -387,8 +320,13 @@ geheimewelt:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-geheimewelt_end:
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: geheimewelt
+    seed: 4405134068028
+  version: 1.3
+minecraft:geheimewelt_end:
   adjust-spawn: true
   alias: ''
   allow-advancement-grant: true
@@ -404,18 +342,17 @@ geheimewelt_end:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: the_end
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 16.0
-  seed: -2082371875744122254
   spawn-location:
     ==: MVSpawnLocation
     x: 0.0
@@ -465,8 +402,13 @@ geheimewelt_end:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-geheimewelt_nether:
+  read-only:
+    environment: the_end
+    generator-settings: ''
+    legacy-world-name: geheimewelt_end
+    seed: -2082371875744122254
+  version: 1.3
+minecraft:geheimewelt_nether:
   adjust-spawn: true
   alias: ''
   allow-advancement-grant: true
@@ -482,18 +424,17 @@ geheimewelt_nether:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: nether
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 8.0
-  seed: 1571903038800543580
   spawn-location:
     ==: MVSpawnLocation
     x: 0.0
@@ -543,8 +484,13 @@ geheimewelt_nether:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-papa:
+  read-only:
+    environment: nether
+    generator-settings: ''
+    legacy-world-name: geheimewelt_nether
+    seed: 1571903038800543580
+  version: 1.3
+minecraft:lobby:
   adjust-spawn: true
   alias: ''
   allow-advancement-grant: true
@@ -555,74 +501,78 @@ papa:
   auto-load: true
   bed-respawn: true
   biome: ''
-  difficulty: normal
+  difficulty: easy
   entry-fee:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
-  gamemode: survival
-  generator: ''
+  gamemode: adventure
+  generator: VoidGen
   hidden: false
   hunger: true
-  keep-spawn-in-memory: true
+  keep-spawn-in-memory: false
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: 6391130274229160289
   spawn-location:
     ==: MVSpawnLocation
-    x: 0.0
-    y: 71.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: 12.96160118452064
+    y: 81.0
+    z: 20.626723799611348
+    pitch: -6.6000347
+    yaw: -88.20013
   spawning:
     monster:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     animal:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     water_animal:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     water_ambient:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     water_underground_creature:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     ambient:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     axolotl:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
     misc:
       spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-void:
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: Lobby
+    seed: -4548000488950936716
+  version: 1.3
+minecraft:overworld:
   adjust-spawn: true
   alias: ship
   allow-advancement-grant: true
@@ -638,18 +588,17 @@ void:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
   gamemode: adventure
   generator: VoidGen:biome:desert
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: 8688449440232465443
   spawn-location:
     ==: MVSpawnLocation
     x: 1.5863400425888052
@@ -699,8 +648,13 @@ void:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-void_nether:
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: void
+    seed: 8688449440232465443
+  version: 1.3
+minecraft:papa:
   adjust-spawn: true
   alias: ''
   allow-advancement-grant: true
@@ -711,101 +665,104 @@ void_nether:
   auto-load: true
   bed-respawn: true
   biome: ''
-  difficulty: easy
+  difficulty: normal
   entry-fee:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: nether
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
-  keep-spawn-in-memory: false
-  player-limit: -1
-  portal-form: all
-  pvp: true
-  respawn-world: ''
-  scale: 8.0
-  seed: -8884311361614835843
-  spawn-location:
-    ==: MVSpawnLocation
-    x: 26.0
-    y: 43.0
-    z: 8.0
-    pitch: 0.0
-    yaw: 0.0
-  spawning:
-    monster:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    animal:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_animal:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_underground_creature:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-  world-blacklist: []
-  version: 1.2
-void_the_end:
-  adjust-spawn: true
-  alias: ''
-  allow-advancement-grant: true
-  allow-flight: false
-  allow-weather: true
-  anchor-respawn: true
-  auto-heal: true
-  auto-load: true
-  bed-respawn: true
-  biome: ''
-  difficulty: easy
-  entry-fee:
-    enabled: false
-    amount: 0.0
-    currency: '@vault-economy'
-  environment: the_end
-  gamemode: survival
-  generator: ''
-  hidden: false
-  hunger: true
-  keep-spawn-in-memory: false
+  keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: -8884311361614835843
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 0.0
+    y: 71.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  spawning:
+    monster:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_animal:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+  world-blacklist: []
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: papa
+    seed: 6391130274229160289
+  version: 1.3
+minecraft:the_end:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: easy
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: false
+  meta: {}
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 1.0
   spawn-location:
     ==: MVSpawnLocation
     x: 0.0
@@ -855,8 +812,95 @@ void_the_end:
       spawn-limit: '@unset'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-world:
+  read-only:
+    environment: the_end
+    generator-settings: ''
+    legacy-world-name: void_the_end
+    seed: -8884311361614835843
+  version: 1.3
+minecraft:the_nether:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: easy
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: false
+  meta: {}
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 8.0
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 26.0
+    y: 43.0
+    z: 8.0
+    pitch: 0.0
+    yaw: 0.0
+  spawning:
+    monster:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_animal:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+  world-blacklist: []
+  read-only:
+    environment: nether
+    generator-settings: ''
+    legacy-world-name: void_nether
+    seed: -8884311361614835843
+  version: 1.3
+minecraft:world:
   adjust-spawn: true
   alias: world
   allow-advancement-grant: true
@@ -872,18 +916,17 @@ world:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: 773767261091283725
   spawn-location:
     ==: MVSpawnLocation
     x: -173.26838050506183
@@ -933,8 +976,13 @@ world:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-world_nether:
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: world
+    seed: 773767261091283725
+  version: 1.3
+minecraft:world_nether:
   adjust-spawn: true
   alias: world_nether
   allow-advancement-grant: true
@@ -950,18 +998,17 @@ world_nether:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: nether
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 8.0
-  seed: 773767261091283725
   spawn-location:
     ==: MVSpawnLocation
     x: 3.5
@@ -1011,8 +1058,13 @@ world_nether:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-world_the_end:
+  read-only:
+    environment: nether
+    generator-settings: ''
+    legacy-world-name: world_nether
+    seed: 773767261091283725
+  version: 1.3
+minecraft:world_the_end:
   adjust-spawn: true
   alias: world_the_end
   allow-advancement-grant: true
@@ -1028,18 +1080,17 @@ world_the_end:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: the_end
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 16.0
-  seed: 773767261091283725
   spawn-location:
     ==: MVSpawnLocation
     x: 0.0
@@ -1089,4 +1140,9 @@ world_the_end:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
+  read-only:
+    environment: the_end
+    generator-settings: ''
+    legacy-world-name: world_the_end
+    seed: 773767261091283725
+  version: 1.3

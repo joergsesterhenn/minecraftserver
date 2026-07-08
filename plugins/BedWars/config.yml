@@ -61,6 +61,7 @@ bungee:
   random-game-selection:
     enabled: true
     preselect-games: false
+  rejoin-players-after-game: false
 farmBlocks:
   enable: false
   blocks: []
@@ -151,6 +152,7 @@ specials:
     follow-range: 10.0
     max-target-distance: 32
     explosion-time: 8
+    damage: 4.0
   arrow-blocker:
     protection-time: 10
     delay: 5
@@ -451,3 +453,4 @@ disable-locator-bars-in-arena-worlds: true
 disable-opening-stores-of-other-teams: false
 disable-waterlogging-of-original-blocks: false
 invisible-lobby-on-game-start: false
+spawn-resources-on-game-start: false

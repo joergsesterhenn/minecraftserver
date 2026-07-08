@@ -63,7 +63,7 @@ npc:
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
-    traitnames: scoreboardtrait,spawned,owner,horsemodifiers,foxtrait,skintrait,mounttrait,location,inventory,type,waypoints,age
+    traitnames: scoreboardtrait,spawned,owner,skintrait,mounttrait,inventory,type,waypoints,horsemodifiers,foxtrait,leashedtrait,location,age,chunktickettrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -95,7 +95,7 @@ npc:
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
-    traitnames: scoreboardtrait,spawned,owner,mounttrait,location,type,waypoints,age
+    traitnames: scoreboardtrait,spawned,owner,mounttrait,leashedtrait,location,type,waypoints,age,chunktickettrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false

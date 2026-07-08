@@ -94,6 +94,7 @@ hangarplugins=(
   "ScreamingSandals/ScreamingBedWars"
   "MrMicky/WorldEditSelectionVisualizer"
 )
+#   "renvins/ServerPulse"
 
 for plugin in "${hangarplugins[@]}"; do
   AUTHOR="${plugin%%/*}"
@@ -150,6 +151,7 @@ do
 done
 
 echo "### Updating --dynmap-- ###"
+echo "####### curl -fsL https://mediafilez.forgecdn.net/files/7460/127/Dynmap-3.8-spigot.jar -o /opt/papermc/plugins/dynmap.jar"
 curl -fsL https://mediafilez.forgecdn.net/files/7460/127/Dynmap-3.8-spigot.jar -o /opt/papermc/plugins/dynmap.jar
 
 
